@@ -8,4 +8,4 @@ Clean-clone numerical identity,PASS,"Selected cohort, model, profile, outcome, T
 Repository contents,PASS,"Raw data, the local R runtime, course materials, private study notes, machine settings, and logs are excluded from version control."
 Credential and path scan,PASS,"No GitHub token, private key, password, AWS key, or machine-specific absolute path is present in the tracked files."
 Line-ending reproducibility,PASS,"Text-file line endings are controlled through .gitattributes, keeping the MD5 output manifest stable across Windows checkouts."
-GitHub publication,PASS,"The repository danifeyrus/ams-student-engagement-analysis was created and origin/main was verified against the local main branch."
+GitHub publication,PASS,"The public repository danifeyrus/ams-student-engagement-analysis was created and origin/main was verified against the local main branch."
