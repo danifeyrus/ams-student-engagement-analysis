@@ -304,7 +304,8 @@ run_final_audit <- function(
     version = vapply(package_names, function(pkg) as.character(utils::packageVersion(pkg)), character(1))
   )
   write_csv(package_versions, file.path(results_dir, "package_versions.csv"))
-  writeLines(capture.output(sessionInfo()), file.path(results_dir, "session-info.txt"), useBytes = TRUE)
+  session_lines <- trimws(capture.output(sessionInfo()), which = "right")
+  writeLines(session_lines, file.path(results_dir, "session-info.txt"), useBytes = TRUE)
 
   verification <- data.table::rbindlist(checks, fill = TRUE)
   write_csv(verification, file.path(results_dir, "verification_summary.csv"))
@@ -317,7 +318,7 @@ run_final_audit <- function(
     list.files("docs", recursive = TRUE, full.names = TRUE),
     "main.R", "EXAM_DEMO.R", ".Rprofile",
     file.path(".vscode", c("settings.example.json", "tasks.json", "extensions.json")),
-    ".gitignore", ".renvignore", "renv/activate.R", "README.md", "renv.lock",
+    ".gitattributes", ".gitignore", ".renvignore", "renv/activate.R", "README.md", "renv.lock",
     file.path("scripts", "run-r.ps1")
   )))
   manifest_files <- setdiff(manifest_files, file.path(results_dir, "output_manifest.csv"))

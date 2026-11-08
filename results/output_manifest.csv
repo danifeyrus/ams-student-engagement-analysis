@@ -1,4 +1,5 @@
 file,bytes,md5
+.gitattributes,46,f5f4db36a6f081382614f17275ee06b1
 .gitignore,798,aef820341d8ea91c02f575fa9db0b85c
 .renvignore,108,9a5d31fd84bb8ca6a160d76d475946aa
 .Rprofile,431,b14d4f09e14a9b6a3e320d793a22855c
@@ -70,6 +71,7 @@ results/feature_correlation_log_pearson.csv,238,08a2ab69097672a533addbbe6d1a4d9e
 results/feature_correlation_original_spearman.csv,214,16637269c2cfb2544731304e2d6c1c70
 results/feature_transform_parameters.csv,392,72c28cda391f5f61ee745ab5bfbc6a83
 results/final_academic_audit.md,7890,2d0711664e703a1bb6ebb607642f9675
+results/final_handoff_validation.csv,1437,f70394518f2fb5e4dd556704d24902c5
 results/independent_ari_verification.csv,680,c709cc81a76755e0b9baa6403bffaf29
 results/independent_statistical_audit_summary.csv,1506,50e6b29254c769c6b5d2290d1c976290
 results/join_validation.csv,398,76e2fd982280fc8d143aadf3d3329634
@@ -104,7 +106,7 @@ results/raw_table_validation.csv,593,d5a27ea2879a9f1b878c52e98508de51
 results/selected_cohort.csv,523,226691ab70b3b9404de706d2ee513201
 results/selected_cohort_daily_activity.csv,542,08abf31da64703e7c5fc2c30566981b7
 results/selected_cohort_outcomes_overall.csv,149,5b17f8e972971a2fb05c060383de5317
-results/session-info.txt,1229,1baa178b7b422da9495984c4b18c4edc
+results/session-info.txt,1127,32a80dbe6b425fb216f38d23a336b6f8
 results/source-map.md,7142,9185608f83815514a41f37897e9f5728
 results/tclust_configuration_sensitivity.csv,1051,4ca56ecd2380da2242c5d4e91d842c80
 results/tclust_extended_restriction_sensitivity.csv,536,3f36e3f2bc4af4b5f38dc8a2d88fd4b5
@@ -126,7 +128,7 @@ src/02_eda.R,9062,05463fa55c5f425fa97a6d03541da9f7
 src/03_model_based_clustering.R,18409,4c58354a897e38eab5dae910eb1e0e69
 src/04_outcomes.R,5578,43cfbaf4c6e0bdcd1da198616f6440c5
 src/05_robustness.R,22544,c5929386b15d8150cf9210993e0dce51
-src/06_audit.R,16416,b9e6bd84d433c90dff6dcf5891376ad8
+src/06_audit.R,16492,83a21dccf06ffd11a3edeb296d754514
 src/07_independent_statistical_audit.R,27483,c119c2e320cfe4e8d3732fd4df92911d
 src/08_publication_assets.R,6248,cbc8cf4703e0b3678943ef556de8f924
 src/exam_demo.R,3545,f8b67c0183d841be2d77c4487b1dfb2f
