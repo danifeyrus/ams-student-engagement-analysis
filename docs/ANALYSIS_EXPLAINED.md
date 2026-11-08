@@ -1,74 +1,68 @@
-# Analysis Explained
+# Methodology and interpretation
 
-This document explains the project in plain language while preserving the statistical boundaries of the verified analysis. It is a methodological guide for collaborators, not a course report.
+## Research design
 
-## 1. What the project asks
+The project examines early online engagement in the Open University Learning Analytics Dataset (OULAD). It asks whether the first 28 course days contain interpretable engagement profiles, whether recorded outcomes differ across those profiles, and how sensitive the profiles are to changes in method and sample definition.
 
-The project studies whether students show distinguishable patterns of early online engagement, whether recorded course outcomes differ across those patterns, and whether the patterns survive reasonable changes in method and design. The analysis is exploratory: it describes structure in the data and does not predict outcomes or estimate causal effects.
+The analysis is exploratory. Course outcomes are not used to select the cohort, construct features, choose the number of components, or estimate the clusters. They are introduced only after the clustering solution has been fixed.
 
-## 2. What OULAD contains
+## Data and unit of analysis
 
-The Open University Learning Analytics Dataset links course presentations, students, registrations, assessments, and virtual-learning-environment events. The pipeline uses all seven official CSV tables and validates their real row counts, keys, dates, and joins. A student can appear in more than one presentation, so the unit used here is an enrollment in one selected module-presentation.
+OULAD links module-presentations, student registrations, assessments, and virtual-learning-environment activity. The pipeline validates the seven official CSV tables, including their row counts, keys, dates, and join cardinalities.
 
-Raw VLE events are not deduplicated away. Repeated enrollment-resource-day rows represent additional recorded clicks and are summed. The official archive, checksum, attribution, and table validation are recorded in `results/`.
+The observational unit is an enrollment in a module-presentation. A student may therefore occur more than once in the complete dataset. Repeated `studentVle` rows at the same enrollment-resource-day grain are retained because they represent recorded click totals rather than accidental duplicate records.
 
-## 3. How the analytical cohort was chosen
+## Cohort definition
 
-The cohort was chosen without looking at `final_result`. Among presentations with complete days 0–27 VLE coverage and valid resource links, the largest eligible presentation was `CCC-2014J`.
+Presentation selection is based on sample size, complete VLE coverage for days 0–27, course duration, and resource linkage. These criteria select `CCC-2014J` without reference to `final_result`.
 
-The flow is:
+The sample is formed in five steps:
 
-- 2,498 recorded enrollments;
-- 2,495 with an observed registration date;
-- 2,482 registered by day 0;
-- 2,271 still registered at day 0;
-- 2,011 still observable through day 27.
+| Stage | n |
+|---|---:|
+| Recorded enrollments | 2,498 |
+| Registration date observed | 2,495 |
+| Registered by day 0 | 2,482 |
+| Still registered at day 0 | 2,271 |
+| Observed through day 27 | 2,011 |
 
-The primary rule excludes 260 enrollments that unregister during days 0–27. This makes observation time comparable, but it also removes an educationally important group. Therefore an alternative 2,271-enrollment cohort includes those students with opportunity adjustment. Zero activity is not treated as missing: all 38 eligible zero-click enrollments remain in the primary cohort.
+The primary cohort excludes 260 enrollments that unregister during the observation window. This gives all included enrollments the same potential exposure period, but narrows the population to students observed through day 27. A separate opportunity-adjusted analysis includes the 2,271 students who were active at day 0.
 
-## 4. What the three variables mean
+Activity is left-joined to the eligible cohort, so absence of VLE records remains a meaningful zero rather than becoming a missing row. The final sample includes 38 zero-click enrollments.
 
-`total_clicks` is the sum of recorded VLE clicks during course days 0–27. `active_days` counts distinct days with at least one interaction. `distinct_resources` counts different VLE resources accessed.
+## Engagement measures
 
-These variables represent intensity, regularity, and breadth. They are interpretable but correlated; they are not three independent dimensions of learning. A click is a platform interaction, not proof of attention, comprehension, or learning.
+Three variables describe activity during course days 0–27:
 
-## 5. Why transform and standardize
+- `total_clicks`: the sum of recorded VLE clicks;
+- `active_days`: the number of distinct days with at least one recorded interaction;
+- `distinct_resources`: the number of different VLE resources accessed.
 
-The original counts are right-skewed, especially total clicks: its mean is 289.4, median 203, maximum 3,247, and sample skewness 3.63. The pipeline applies `log1p(x) = log(1 + x)`, which is defined at zero and reduces the leverage of very large counts.
+They represent intensity, regularity, and breadth of platform use. These are behavioral traces rather than direct measurements of attention or learning.
 
-Each transformed variable is then z-standardized. Standardization prevents a high-variance variable from dominating merely because of its scale. Original counts are retained for profile summaries so the results remain understandable.
+The original counts are right-skewed. Total clicks, for example, have mean 289.4, median 203, and maximum 3,247. The clustering variables are therefore transformed with `log1p`, which accommodates zeros and reduces the influence of very large counts, and then standardized to mean zero and unit variance. Profile descriptions remain on the original count scale.
 
-The transformation helps but does not create exact normality. It also leaves a shared point mass for the 38 zero-activity enrollments. This is one reason Gaussian components must be viewed as approximations.
+## Exploratory structure
 
-## 6. What the EDA shows
+In the primary cohort, median total clicks are 203, median active days are 9, and median distinct resources are 17. The respective interquartile ranges are 110–357.5, 6–14, and 11–24.
 
-In the primary cohort:
+The three transformed variables remain strongly associated; the largest pairwise correlation is 0.872. The first principal component explains 89.6% of their variance. Consequently, most of the multivariate structure follows a common low-to-high engagement direction. The variables add interpretable detail, but they do not constitute three independent behavioral dimensions.
 
-- total clicks: median 203, IQR 110–357.5;
-- active days: median 9, IQR 6–14;
-- distinct resources: median 17, IQR 11–24.
+The `log1p` transformation improves the shape of the distributions without making them exactly Gaussian. In particular, the 38 zero-activity cases remain a shared point mass.
 
-The transformed variables remain strongly related; their maximum pairwise correlation is 0.872. Principal component 1 explains 89.6% of transformed-feature variance. Most of the visible structure is therefore one broad low-to-high engagement gradient, not three orthogonal behavioral axes.
+## Gaussian mixture model
 
-## 7. How Gaussian mixture clustering works
+A Gaussian mixture represents the observed density as a weighted combination of multivariate normal components. Each component has its own location and covariance structure. The EM algorithm estimates the component parameters and posterior membership probabilities.
 
-A Gaussian mixture represents the observed distribution as a weighted sum of multivariate normal components. Each component has a mean vector and a covariance shape. The EM algorithm estimates the component parameters and posterior membership probabilities.
+The search covers one to nine components and all covariance families implemented by `mclust`. Seven outcome-blind initializations are evaluated for each candidate. BIC is used to select the density model, after which the selected specification is refitted from additional starts and the best recorded likelihood is retained.
 
-Every enrollment receives both a hard label—the component with the largest posterior probability—and a probability vector. The probability vector is essential: two students can receive different labels even when both lie near a fuzzy boundary.
+The highest BIC is obtained by a four-component VVE model. VVE allows component volume and shape to vary while keeping their orientation equal. The selected fit has BIC -10,420.719, log-likelihood -5,096.264, and 30 free parameters. Its smallest component contains 91 observations, and the minimum covariance eigenvalue is 0.0177, so the selected fit is neither tiny nor numerically degenerate.
 
-The project searches 1–9 components and the covariance families implemented by `mclust`. To reduce dependence on one hierarchical initialization, the BIC search uses seven outcome-blind initializations. The selected specification is then refitted repeatedly, retaining the best recorded log-likelihood.
+BIC compares candidate density models; it is not a test for the existence of four naturally separated student populations. ICL applies an additional entropy penalty and instead prefers a two-component EVE model.
 
-## 8. Why BIC selected G=4 VVE
+## Profile interpretation
 
-BIC balances maximized likelihood against model complexity; in `mclust`, the larger BIC is preferred. The best search specification was four components with VVE covariance. VVE allows component volumes and shapes to vary while constraining orientation to be equal.
-
-The selected fit has BIC -10,420.719 and log-likelihood -5,096.264. The BIC gap to the second-ranked specification is 12.328. Component sizes are 91, 493, 1,145, and 282; there is no tiny component or near-singular fitted covariance.
-
-BIC answers “which candidate density model is best by this penalized likelihood criterion?” It does not prove that four natural student types exist. Entropy-penalized ICL, which rewards clearer classification, instead prefers G=2 EVE.
-
-## 9. What the four profiles describe
-
-Profiles are ordered by original-scale engagement medians:
+The fitted components are ordered by median total clicks:
 
 | Profile | n | Median clicks | Median active days | Median resources |
 |---|---:|---:|---:|---:|
@@ -77,56 +71,54 @@ Profiles are ordered by original-scale engagement medians:
 | P3 | 1,145 | 229 | 10 | 19 |
 | P4 | 282 | 651.5 | 19 | 24 |
 
-These are useful descriptive regions along the engagement gradient. P1 contains all 38 zero-click enrollments, but also some very-low nonzero activity. P3 is broad and contains 56.9% of the cohort.
+P1 contains all 38 zero-click enrollments together with a small number of very-low-activity cases. P3 contains 56.9% of the cohort and covers a broad middle range. The profile ordering is easy to interpret, but membership is probabilistic rather than an observed student characteristic.
 
-## 10. Why classification uncertainty matters
+Mean posterior uncertainty is 0.217, and 988 of 2,011 assignments exceed 0.20. Mean silhouette width is 0.221, with 22.8% negative values. These diagnostics show substantial overlap, especially near the component boundaries.
 
-Mean posterior uncertainty is 0.217, and 988 of 2,011 hard assignments have uncertainty above 0.20. Mean silhouette width is only 0.221, while 22.8% of cases have a negative silhouette.
+## Outcomes
 
-These diagnostics say that many students lie near overlapping component boundaries. A hard profile label is therefore a summary, not an observed trait. Posterior probabilities should be retained whenever individual classification matters. This is also why the project does not assign personality-style names to the profiles.
+After clustering, `final_result` is cross-tabulated with profile membership. The association is statistically clear: χ²(9)=189.830, p=4.47×10^-36. Cramér's V is 0.177, and the smallest expected count is 13.80.
 
-## 11. How outcomes were compared
+Withdrawal decreases from 50.5% in P1 to 18.4% in P4. Pass and Distinction become more common across the same ordering. This is a descriptive association within one restricted cohort. It does not control for prior achievement, motivation, personal circumstances, or other possible confounders, and it does not imply that increasing click counts would cause a better result.
 
-`final_result` was excluded from cohort selection, features, BIC selection, and clustering. It was joined only after the four-component partition was fixed.
+## Robust clustering and ARI
 
-The outcome-by-profile chi-squared statistic is 189.830 with 9 degrees of freedom, p = 4.47 × 10^-36, and Cramér's V = 0.177. Expected counts are adequate. Withdrawal falls from 50.5% in P1 to 18.4% in P4, while Pass and Distinction proportions rise.
+TCLUST provides a robustness comparison by trimming a fixed proportion of observations and constraining covariance eigenvalue ratios. The primary specification uses four groups, `alpha=0.05`, restriction factor `c=20`, and 1,000 starts. It trims 101 observations and retains 1,910.
 
-This is a modest descriptive association in a restricted observational cohort. It does not establish that increasing clicks would cause success, because prior ability, course circumstances, motivation, and other confounders are not controlled.
+The adjusted Rand index between TCLUST and the Gaussian mixture is 0.238981 on those retained cases. The calculation was reproduced directly from the enrollment-level contingency table. TCLUST label 0 denotes a trimmed observation and is excluded rather than treated as an additional cluster.
 
-## 12. What TCLUST and ARI contribute
+The methods divide the data differently because they optimize different criteria. TCLUST places 1,717 observations in one broad middle group and isolates smaller zero, very-low, and very-high groups. The Gaussian mixture uses several overlapping components to approximate the density along the same engagement gradient.
 
-TCLUST is a robust clustering method that trims a prespecified fraction of observations and restricts covariance eigenvalue ratios. The primary configuration uses four groups, `alpha=0.05`, restriction factor `c=20`, and 1,000 starts. It trims 101 observations and compares the remaining 1,910 with the Gaussian labels.
+## Sensitivity
 
-The adjusted Rand index (ARI) is 0.238981. It was independently recomputed from the exact enrollment cross-tab. TCLUST label 0 means “trimmed,” so those observations are excluded rather than treated as an extra cluster.
+The robustness checks were selected to test the primary result rather than to maximize agreement:
 
-The low ARI is scientifically informative. TCLUST creates a very large middle group and small boundary/extreme groups, whereas the likelihood-based Gaussian mixture subdivides the continuous intensity distribution differently. Across reasonable TCLUST settings, retained-case ARI ranges from 0.117 to 0.283. The methods agree on a broad intensity ordering but not on stable hard boundaries.
+- across the prespecified TCLUST configurations, retained-case ARI ranges from 0.117 to 0.283;
+- the 14-day specification fixes four components, selects EEV, and has ARI 0.175 against the primary partition;
+- the opportunity-adjusted cohort contains 2,271 enrollments, selects VEV with four components, and has overlap ARI 0.082;
+- conditional on a successful fixed G=4 VVE fit, median subsample ARI is 0.772;
+- when model selection is repeated within each subsample, the exact G=4 VVE specification is selected in 24% of repetitions and median ARI falls to 0.256.
 
-## 13. What the sensitivity analyses say
+The difference between the fixed-model and reselected-model results is important. A four-component VVE geometry can often be recovered when imposed, but the data do not consistently select that exact specification.
 
-The analyses were defined to challenge the primary result, not to maximize agreement:
+## Scope of the conclusions
 
-- a 14-day window fixes G=4, selects EEV, and has ARI 0.175 versus the primary partition;
-- the opportunity-adjusted 2,271-enrollment cohort fixes G=4, selects VEV, and has overlap ARI 0.082;
-- ICL prefers two components rather than four;
-- leave-one-feature-out, alternative transformation, PC1-only, and covariance checks show specification dependence;
-- in 25 outcome-blind 80% subsamples, the exact G=4 VVE specification is reselected only 24% of the time;
-- conditional on a successful fixed G=4 VVE fit, median subsample ARI is 0.772, but joint model-reselection median ARI is 0.256.
+The analysis supports four findings. First, early activity in `CCC-2014J` is dominated by a continuous engagement-intensity gradient. Second, a four-component VVE mixture gives the best BIC approximation among the models considered. Third, recorded outcomes differ across the fitted low-to-high engagement regions. Fourth, the number and boundaries of hard groups change materially under alternative classification criteria, algorithms, observation windows, cohort rules, and case samples.
 
-The distinction between conditional and unconditional stability matters. The four-component geometry can recur when imposed, but data-driven selection of the entire model is unstable.
+The model is therefore useful for description, but the profile labels should not be treated as fixed learner types. The main limitations are the single-presentation scope, exclusion of early unregistrations from the primary cohort, correlated proxy variables, approximate Gaussian assumptions, posterior overlap, initialization failures, and model-selection instability.
 
-## 14. Main weaknesses and defensible claims
+## Reproduction
 
-A demanding reviewer can reasonably criticize the one-presentation scope, observational design, selection created by excluding early unregistrations, correlated intensity proxies, zero point mass, approximate Gaussian assumptions, initialization failures, posterior ambiguity, weak hard separation, ICL disagreement, low cross-method ARI, and low model-selection stability.
+Package versions are recorded in `renv.lock`. A complete run is started with:
 
-Those weaknesses are recorded rather than hidden. The defensible claims are:
+```powershell
+Rscript main.R
+```
 
-1. Early engagement in this cohort is strongly ordered along a continuous intensity gradient.
-2. A four-component VVE mixture is the best density approximation in the prespecified BIC search and provides readable low-to-high descriptive profiles.
-3. Recorded outcomes differ across those profiles, with a modest association.
-4. Exact boundaries and the number of hard groups are not robust enough to support fixed natural learner types.
+On Windows, `scripts/run-r.ps1` locates a suitable R installation:
 
-## 15. Reproducing and reusing the work
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/run-r.ps1 main.R
+```
 
-Restore packages with `renv::restore()`, then run `Rscript main.R` or the Windows launcher in `scripts/run-r.ps1`. The pipeline verifies the archive, schemas, joins, model invariants, numerical agreement, figures, package versions, and MD5 manifest.
-
-For a fast inspection without refitting, run `EXAM_DEMO.R` or `main.R --demo`. For writing, use only assets indexed in `publication/ASSETS_INDEX.md`; source tables remain in `results/`. Do not copy cached numbers into code or hand-edit generated tables. If a method changes, rerun the full pipeline and update the interpretation at the same time.
+The pipeline downloads and verifies OULAD when necessary, rebuilds the cohort and models, regenerates the figures and tables, and runs the numerical checks. `EXAM_DEMO.R` and `main.R --demo` provide a faster inspection of the saved fitted objects without refitting.

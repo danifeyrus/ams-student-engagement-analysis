@@ -1,68 +1,58 @@
-# Final academic and statistical audit
+# Internal review of the analysis
 
-Audit scope: official six AMS evaluation criteria, research design, executable pipeline, statistical validity, communication assets, and team handoff. The numerical evidence below comes from the verified result files rather than manual recalculation in prose.
+This review compares the completed analysis with the six assessment criteria in the AMS project guidelines and checks whether the conclusions follow from the numerical results.
 
-## Overall judgement
+## Assessment criteria
 
-- **Technical correctness: PASS.** Data provenance, checksums, schemas, joins, cohort denominators, feature construction, outcome separation, model-search bookkeeping, retained-case ARI, numerical invariants, and generated artifacts are explicitly checked. All 19 required validation checks pass.
-- **Statistical validity: PASS WITH MATERIAL QUALIFICATIONS.** The analysis is suitable as an exploratory multivariate clustering study. It is not valid to present the four components as uniquely stable natural student types. Five diagnostic checks deliberately remain REVIEW.
-- **Academic readiness: READY FOR A CAUTIOUS ORAL EXAMINATION.** The strongest answer is that model-based profiles are interpretable density summaries and their instability is a substantive result.
+| Criterion | Assessment | Evidence and scope |
+|---|---|---|
+| Data, problem, and EDA | Meets the criterion | OULAD provenance and SHA-256 are recorded; all seven tables and joins are checked; cohort construction, zeros, original distributions, and transformations are documented |
+| Research questions | Meets the criterion | The three questions separately address profile structure, recorded outcomes, and robustness |
+| Analytical pipeline | Meets the criterion | Cohort and model selection are outcome-blind; seeds, package versions, warnings, generated outputs, and numerical checks are recorded |
+| Choice of AMS methods | Meets the criterion | Gaussian mixtures, covariance models, BIC, ICL, posterior probabilities, PCA, silhouette, TCLUST, ARI, and sensitivity analyses are used for questions they can answer |
+| Visual communication | Meets the criterion | The 20-figure set covers cohort construction, EDA, model selection, profiles, outcomes, uncertainty, and robustness |
+| Results and conclusions | Meets the criterion with limitations | Estimates are consistent across code and documentation; conclusions remain descriptive and explicitly acknowledge instability |
 
-## Audit against the six AMS criteria
+All 19 required checks in `results/verification_summary.csv` pass. Five diagnostic checks remain marked REVIEW because they describe substantive limitations rather than execution failures.
 
-| Criterion | Status | Evidence | Remaining qualification |
-|---|---|---|---|
-| 1. Data/problem presentation and EDA | PASS | Official OULAD provenance and SHA-256; seven tables validated; cohort flow and zero retention documented; original and transformed distributions plotted | One presentation and three engagement proxies limit generalization |
-| 2. Clear research questions | PASS | Three questions separately address profile structure, descriptive outcome association, and robustness | RQ1 must be answered conditionally because cluster boundaries are unstable |
-| 3. Analytical pipeline | PASS | Outcome-blind cohort and clustering; reproducible seed; `renv`; multiple starts; full validation and output manifest | Full refit is computationally substantial |
-| 4. Appropriate AMS methods | PASS | Gaussian mixtures, covariance models, BIC/ICL, posterior uncertainty, PCA/silhouette, TCLUST, ARI, and sensitivity analyses match course methods | Gaussian assumptions are approximate and features are strongly redundant |
-| 5. Compelling visual communication | PASS | Twenty checked figures plus ten curated publication figures, with uncertainty and negative robustness shown alongside headline profiles | Visuals must not be selected without the limitation panels |
-| 6. Clear results and conclusions | PASS WITH QUALIFICATION | Exact estimates, effect size, profile medians, uncertainty, ARI, and sensitivity findings are consistent across code and documentation | Avoid causal, predictive, and ontological language |
+## Research design
 
-## Research-design audit
+The cohort is selected without reference to course outcomes. Requiring a complete 28-day observation period makes exposure comparable and preserves zero activity through left joins. It also excludes 260 early unregistrations, so the primary results apply to students observed through day 27 rather than to every registered student. The opportunity-adjusted sensitivity analysis addresses this choice and produces overlap ARI 0.082.
 
-The cohort-selection rule does not use outcomes. A fixed 28-day window creates comparable exposure and retains zero activity through left joins. Excluding 260 early unregistrations avoids treating unavailable days as inactivity, but changes the target population. The opportunity-adjusted sensitivity explicitly tests this choice and produces low overlap ARI (0.082), so selection dependence is acknowledged rather than hidden.
+Total clicks, active days, and distinct resources have clear behavioral interpretations. Applying `log1p` to nonnegative counts and then standardizing is appropriate for covariance-based clustering. The measures are nevertheless strongly related: PC1 explains 89.6% of their transformed variance, and the largest transformed correlation is 0.872. The dominant empirical structure is therefore an engagement-intensity gradient.
 
-The three variables are substantively interpretable measures of intensity, regularity, and breadth. `log1p` is appropriate for nonnegative skewed counts with zeros, and z-standardization is appropriate before covariance-based clustering. Nevertheless, PC1 explains 89.6% and the maximum transformed correlation is 0.872; the variables mostly encode a single intensity gradient. This is the main explanation for method-dependent cut points.
+## Gaussian mixture
 
-## Gaussian-mixture audit
+The model search evaluates seven initializations for each candidate combination of component count and covariance structure. BIC selects G=4 VVE. The retained fit has BIC -10,420.719, log-likelihood -5,096.264, minimum component size 91, and minimum covariance eigenvalue 0.0177. These values do not indicate a tiny or degenerate selected component.
 
-The corrected outcome-blind search uses seven initializations for each candidate G/covariance cell and selects G=4 VVE by BIC. The best repeated fit has BIC -10,420.719, log-likelihood -5,096.264, minimum component size 91, and minimum covariance eigenvalue 0.0177. There is no evidence of a tiny or degenerate selected component.
+Classification is much less certain than density fit. Mean posterior uncertainty is 0.217, 988 assignments exceed 0.20, normalized posterior entropy is 0.363, mean silhouette is 0.221, and 22.8% of silhouettes are negative. ICL prefers G=2 EVE. In 25 case subsamples, the exact G=4 VVE specification is selected in 24%, with median model-reselected partition ARI 0.256. Four of 21 selected-specification restarts return `NULL`.
 
-The solution is meaningful as a density approximation but not as a sharp taxonomy. Mean posterior uncertainty is 0.217; 988 assignments exceed 0.20; normalized posterior entropy is 0.363; mean silhouette is 0.221; 22.8% of silhouettes are negative. ICL prefers G=2 EVE. In 25 case subsamples, the exact G/model is selected in 24%, with median model-reselected partition ARI 0.256. Four of 21 selected-specification restarts returned `NULL`, and successful fits are not assignment-identical.
+The four components are therefore interpretable density regions, but the evidence does not support four sharply separated or invariant learner types.
 
-## Robust-clustering and ARI audit
+## TCLUST and ARI
 
-ARI was computed on comparable observations. The primary TCLUST fit labels 101 enrollments as 0 (trimmed); those rows are excluded, leaving 1,910 enrollment keys with both nonzero TCLUST labels and Gaussian labels. A manual contingency-table calculation matches the package ARI to numerical tolerance: 0.238981437. Treating label 0 as an ordinary cluster would answer a different question and is not used.
+The primary TCLUST fit trims 101 observations. ARI is calculated on the remaining 1,910 enrollment keys, each of which has both a nonzero TCLUST label and a Gaussian-mixture label. A manual calculation from the same contingency table matches the package value: 0.238981437.
 
-TCLUST does not merely relabel the Gaussian components. It creates one 1,717-case broad middle group plus small zero, very-low, and very-high groups, whereas the mixture partitions the continuous intensity distribution into overlapping Gaussian regions. With different defensible trimming and restriction settings, retained-case ARI remains 0.117–0.283. The disagreement is therefore explained by objective functions, trimming, covariance restrictions, and weak boundary separation—not by a coding or key-alignment error.
+TCLUST label 0 is treated as trimming status, not as an additional cluster. The low ARI is therefore not a consequence of mismatched keys or an incorrect denominator. TCLUST forms one 1,717-case middle group with small zero, very-low, and very-high groups, while the Gaussian mixture divides the continuous intensity distribution into overlapping density components. Across the prespecified TCLUST settings, retained-case ARI remains between 0.117 and 0.283.
 
-## Outcome audit
+## Outcomes
 
-Outcomes are joined only after clustering. The profile-outcome table totals 2,011, all chi-squared expected counts exceed five, and χ²(9)=189.830 with p=4.47×10^-36 and Cramér's V=0.177. The outcome pattern is coherent, but the effect is modest and observational. It supports a descriptive association only.
+Course outcomes are joined after clustering. The profile-by-outcome table contains all 2,011 observations, and no expected count is below five. The association is χ²(9)=189.830, p=4.47×10^-36, with Cramér's V=0.177.
 
-## Issues found and disposition
+The pattern is consistent with more favorable outcomes at higher early-engagement levels, but the effect size is modest and the design is observational. The analysis neither identifies a causal effect nor evaluates predictive performance.
 
-1. **Initialization dependence in the earlier mixture search — corrected previously.** Multi-initialization BIC selection replaced the original G=3 VVV result with G=4 VVE.
-2. **Potential ARI miscomparison — ruled out.** Keys and trimmed cases are handled correctly and independently verified.
-3. **Machine-specific VS Code configuration in a public repository — corrected.** Local settings are ignored; a portable example, tasks, and Windows launcher are supplied.
-4. **Repository hygiene — corrected.** Raw data, local runtimes, private course material, defense notes, logs, and machine-only evidence are excluded from publication.
-5. **Unused helper code — corrected.** One unreferenced checksum helper was removed; statistical logic was not simplified away.
-6. **Pressure to improve agreement — rejected.** No model or tuning value was selected to increase ARI. Low agreement and unstable specifications remain explicit findings.
+## Corrections made during review
 
-## Unresolved weaknesses
+- The original single-initialization mixture search was replaced by a multi-initialization search. This changed the selected model from G=3 VVV to G=4 VVE.
+- ARI was recalculated independently on the exact set of TCLUST-retained enrollment keys.
+- Local runtimes, raw data, course materials, machine-specific settings, logs, and private study notes were excluded from version control.
+- A clean clone restored the recorded packages, downloaded OULAD independently, completed the full pipeline, and reproduced the key numerical outputs.
+- Line endings are controlled through `.gitattributes` so text files behave consistently across Windows checkouts.
 
-- results concern a single module-presentation;
-- early-unregistration exclusion changes the target population;
-- engagement traces are imperfect constructs;
-- features are highly collinear and mostly one-dimensional;
-- transformed components are only approximately Gaussian and include a zero point mass;
-- posterior overlap makes many individual labels unreliable;
-- the preferred component count depends on BIC versus ICL;
-- hard partitions are sensitive to algorithm, window, cohort, features, and case sampling;
-- the number of subsample repetitions is adequate for diagnosis but not a high-precision stability estimate;
-- no causal conclusion about engagement and achievement is identified.
+No covariance structure, trimming level, observation window, or alternative specification was selected to improve ARI.
 
-## Final defensible conclusion
+## Remaining limitations
 
-The project convincingly answers the three research questions only with qualified language: a four-component VVE mixture is the best audited BIC density approximation; outcomes differ descriptively across its low-to-high engagement regions; and extensive robustness checks show that exact group count and membership are unstable. The statistically honest result is the combination of interpretable density structure and weak taxonomic validity.
+The analysis covers one module-presentation and three correlated activity proxies. The primary cohort excludes early unregistrations. The transformed data retain a zero point mass and are only approximately Gaussian within components. Many posterior assignments are ambiguous, BIC and ICL prefer different partitions, and the selected model is sensitive to the sample and specification.
+
+These limitations affect the interpretation of the clusters, not the reproducibility of the calculations. The analysis meets the technical and methodological requirements of the project provided that the report and presentation describe the profiles as model-dependent summaries and keep the outcome comparison noncausal.

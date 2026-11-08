@@ -2,7 +2,7 @@
 
 Reproducible Advanced Multivariate Statistics project examining early virtual-learning-environment engagement in the Open University Learning Analytics Dataset (OULAD). The analysis combines exploratory data analysis, Gaussian model-based clustering, descriptive outcome comparisons, robust trimmed clustering, and transparent sensitivity diagnostics.
 
-This repository contains executable R code, verified numerical outputs, and reusable figures and tables. It does not contain the course report, slides, private teaching materials, or oral-defense notes.
+The repository contains the R pipeline, numerical results, diagnostic outputs, and the figures and tables used by the project team. The written report and presentation are developed separately from these source materials.
 
 ## Research questions
 
@@ -33,7 +33,7 @@ The clustering inputs are `log1p` transformed and z-standardized. Original count
 - `tclust` with prespecified trimming and eigenvalue-ratio restrictions, multiple starts, and retained-observation ARI comparisons.
 - Window, inclusion, transformation, feature, restriction-factor, and resampling sensitivity analyses.
 
-## Verified results
+## Main results
 
 - BIC selected a four-component VVE Gaussian mixture: BIC `-10420.719`, with component sizes 91, 493, 1,145, and 282.
 - Original-scale median profiles progress along a dominant engagement-intensity gradient: `1/1/1`, `86/4/9`, `229/10/19`, and `651.5/19/24` for clicks/active days/resources.
@@ -42,7 +42,7 @@ The clustering inputs are `log1p` transformed and z-standardized. Original count
 - The primary TCLUST solution (`alpha=0.05`, `c=20`, 1,000 starts) trims 101 observations and has retained-case ARI `0.239` versus the Gaussian partition.
 - PC1 explains 89.6% of feature variance; mean Gaussian silhouette is `0.221`; ICL prefers two components; the exact G/model is reselected in 24% of case subsamples.
 
-The defensible conclusion is an exploratory, model-dependent segmentation of a mostly continuous engagement gradient—not four uniquely stable natural learner types.
+Taken together, the results describe a mostly continuous engagement gradient through four fitted density components. They do not indicate four uniquely stable types of learner.
 
 ## Repository structure
 
@@ -65,7 +65,7 @@ The defensible conclusion is an exploratory, model-dependent segmentation of a m
 
 1. Install R 4.6.2 or a compatible recent R release and ensure `Rscript` is on `PATH`.
 2. Install Visual Studio Code and the recommended `REditorSupport.r` extension.
-3. Clone the private repository and open its root folder in VS Code:
+3. Clone the repository and open its root folder in VS Code:
 
 ```powershell
 git clone https://github.com/danifeyrus/ams-student-engagement-analysis.git
@@ -107,7 +107,7 @@ powershell -ExecutionPolicy Bypass -File scripts/run-r.ps1 EXAM_DEMO.R
 powershell -ExecutionPolicy Bypass -File scripts/run-r.ps1 main.R --demo
 ```
 
-The cached demo is for inspection only; `main.R` is the reproducibility authority.
+The cached demo is intended for quick inspection. A complete reproduction is obtained from `main.R`.
 
 ## Reproducibility controls
 
@@ -123,9 +123,9 @@ The cached demo is for inspection only; `main.R` is the reproducibility authorit
 
 The project is observational and exploratory. Clicks are interaction proxies, not learning measurements. The primary cohort excludes early unregistrations to equalize observation opportunity, so findings apply to one module-presentation and the stated eligibility rule. Correlated features largely measure one intensity axis. BIC supports a useful density approximation, but posterior ambiguity, ICL, silhouette, TCLUST, alternative specifications, and subsampling all warn against reifying hard clusters. Outcome comparisons are associations and must not be described as causal effects or predictions.
 
-## Team workflow
+## Working with the repository
 
-Create a feature branch, keep statistical code in `src/`, and submit changes through review. Never hand-edit generated files in `results/`, `figures/`, or `publication/`; regenerate them through `main.R`. Use `publication/ASSETS_INDEX.md` to select report or slide assets, and record any new methodological decision in code and machine-readable output before interpreting it.
+Statistical code is kept in `src/`, while `main.R` defines the order of execution. Files under `results/`, `figures/`, and `publication/` are generated outputs and should be updated by rerunning the pipeline rather than by editing them directly. `publication/ASSETS_INDEX.md` lists the figures and tables selected for the written report and presentation.
 
 ## References
 

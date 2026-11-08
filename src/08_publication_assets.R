@@ -3,7 +3,7 @@ prepare_publication_assets <- function(
     figures_dir = "figures",
     publication_dir = "publication") {
 
-  message("[Team handoff] Preparing report-ready figures and tables...")
+  message("[Publication] Preparing selected figures and tables...")
   figure_output <- file.path(publication_dir, "figures")
   table_output <- file.path(publication_dir, "tables")
   ensure_dirs(c(figure_output, table_output))
@@ -141,7 +141,7 @@ prepare_publication_assets <- function(
   for (name in names(tables)) write_csv(tables[[name]], file.path(table_output, name))
 
   message(sprintf(
-    "[Team handoff] Prepared %d figures and %d tables.",
+    "[Publication] Prepared %d figures and %d tables.",
     length(selected_figures), length(tables)
   ))
   invisible(list(figures = selected_figures, tables = names(tables)))
