@@ -1,4 +1,6 @@
 * text=auto eol=lf
 
+.Rprofile text eol=crlf
+renv/* text eol=crlf
 *.png binary
 *.rds binary
