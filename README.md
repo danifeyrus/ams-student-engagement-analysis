@@ -65,7 +65,13 @@ The defensible conclusion is an exploratory, model-dependent segmentation of a m
 
 1. Install R 4.6.2 or a compatible recent R release and ensure `Rscript` is on `PATH`.
 2. Install Visual Studio Code and the recommended `REditorSupport.r` extension.
-3. Clone the repository and open its root folder in VS Code.
+3. Clone the private repository and open its root folder in VS Code:
+
+```powershell
+git clone https://github.com/danifeyrus/ams-student-engagement-analysis.git
+cd ams-student-engagement-analysis
+```
+
 4. In an R terminal, restore the recorded dependencies:
 
 ```r

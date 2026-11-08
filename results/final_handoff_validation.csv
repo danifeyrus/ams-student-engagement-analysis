@@ -8,4 +8,4 @@ Clean-clone numerical identity,PASS,"Selected cohort, selected model, profile, o
 Public repository hygiene,PASS,"Raw data, local R runtime, private teaching materials, defense notes, progress/spec files, machine settings, and logs are ignored."
 Credential and absolute-path scan,PASS,"No staged GitHub token, private-key, password, AWS key, or C:\Users\danik path matches."
 Line-ending reproducibility,PASS,"Repository text files are normalized to LF through .gitattributes so the MD5 output manifest is checkout-stable."
-GitHub authentication,BLOCKED,"gh auth status reports that the saved danifeyrus token is invalid; no remote repository was created or pushed."
+GitHub publication,PASS,"Private repository danifeyrus/ams-student-engagement-analysis was created and origin/main was verified to match local main."
