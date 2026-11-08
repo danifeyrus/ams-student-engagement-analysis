@@ -1,0 +1,14 @@
+item,status,evidence
+mclust fit diagnostics,Investigated,4 of 21 selected-specification restarts failed or returned NULL; failures and emitted messages are recorded.
+mclust BIC initialization dependence,Material finding,A 7-initialization outcome-blind BIC search selected G=4 VVE; the earlier single-initialization result was not retained.
+mclust restart sensitivity,Investigated,ARI across successful restarts ranges 0.200 to 1.000; best recorded log-likelihood retained.
+posterior allocation uncertainty,Material limitation,Mean uncertainty 0.217; 988 assignments above 0.20.
+component Gaussian adequacy,"Approximate, not exact",Mahalanobis Q-Q correlations range 0.972 to 0.998; log1p does not ensure normality.
+hard-partition separation,Material limitation,Mean silhouette 0.221; 22.8% of Gaussian assignments have negative silhouette.
+BIC versus ICL,Material limitation,"BIC selects G=4 VVE, whereas entropy-penalized ICL selects G=2 EVE."
+case-subsample model-selection stability,Sensitivity limitation,The primary G/model is reselected in 24.0% of 80% subsamples; median selected-partition ARI is 0.256.
+TCLUST agreement,Material limitation,Primary TCLUST ARI 0.239 on retained observations.
+TCLUST initialization sensitivity,Material limitation,Recorded in results/tclust_initialization_stability.csv; repeated-start agreement is variable.
+TCLUST tuning sensitivity,Sensitivity limitation,"Across like-for-like configurations, retained-case ARI ranges 0.117 to 0.283; component sizes can be highly unbalanced."
+alternative covariance estimability,Sensitivity limitation,The primary covariance family is explicitly tested in both alternative feature sets; covariance is reselected by BIC for the reported alternative partitions.
+early-withdrawal selection,Primary-cohort limitation,260 enrollments unregistering on days 0-27 were excluded from the 2011-enrollment primary cohort.

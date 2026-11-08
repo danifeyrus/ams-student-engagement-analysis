@@ -1,0 +1,102 @@
+code_module,code_presentation,id_student,final_result,total_clicks,active_days,distinct_resources,mclust_component,mclust_profile_id,uncertainty,trim_description
+CCC,2014J,73664,Withdrawn,21,6,4,2,P2,0.0426026264567515,multivariate atypical engagement pattern
+CCC,2014J,74290,Withdrawn,28,8,9,2,P2,0.191509571278703,multivariate atypical engagement pattern
+CCC,2014J,80329,Pass,50,10,21,2,P2,0.0194204429402653,multivariate atypical engagement pattern
+CCC,2014J,80868,Pass,2565,27,46,4,P4,0.00857843286461424,upper-tail recorded activity
+CCC,2014J,96864,Withdrawn,36,3,15,2,P2,0.00485621019724869,multivariate atypical engagement pattern
+CCC,2014J,131933,Pass,4,3,1,3,P1,0.0070987551435262,multivariate atypical engagement pattern
+CCC,2014J,199760,Fail,198,2,6,2,P2,1.46505676159592e-05,multivariate atypical engagement pattern
+CCC,2014J,234957,Withdrawn,5,4,1,3,P1,0.0507599060965054,multivariate atypical engagement pattern
+CCC,2014J,242636,Fail,94,1,5,2,P2,1.44337682008722e-05,multivariate atypical engagement pattern
+CCC,2014J,256532,Fail,17,1,5,2,P2,0.000457849113280506,multivariate atypical engagement pattern
+CCC,2014J,285637,Withdrawn,23,1,3,2,P2,0.00059940945125625,multivariate atypical engagement pattern
+CCC,2014J,338731,Fail,1942,22,10,4,P4,0.081454657717161,upper-tail recorded activity
+CCC,2014J,339824,Withdrawn,4,4,1,3,P1,0.0118268647711955,multivariate atypical engagement pattern
+CCC,2014J,353804,Withdrawn,7,4,3,3,P1,0.0258109438313856,multivariate atypical engagement pattern
+CCC,2014J,414772,Pass,88,4,32,2,P2,0.00709446217769028,multivariate atypical engagement pattern
+CCC,2014J,425053,Fail,244,3,24,2,P2,0.0147219523380773,multivariate atypical engagement pattern
+CCC,2014J,446479,Withdrawn,301,2,27,2,P2,0.000231700898179366,multivariate atypical engagement pattern
+CCC,2014J,467753,Withdrawn,7,2,1,2,P2,0.0149121284100222,multivariate atypical engagement pattern
+CCC,2014J,469614,Withdrawn,24,3,4,2,P2,0.0285179728797965,multivariate atypical engagement pattern
+CCC,2014J,470159,Pass,41,7,3,2,P2,0.0828011995714415,multivariate atypical engagement pattern
+CCC,2014J,471810,Withdrawn,59,10,17,2,P2,0.12853368577177,multivariate atypical engagement pattern
+CCC,2014J,475065,Pass,554,20,10,4,P4,0.150642850054527,multivariate atypical engagement pattern
+CCC,2014J,486300,Fail,43,1,7,2,P2,0.00076865271329829,multivariate atypical engagement pattern
+CCC,2014J,490313,Withdrawn,176,6,5,2,P2,0.0240771130719279,multivariate atypical engagement pattern
+CCC,2014J,497955,Withdrawn,144,3,24,2,P2,0.0302337165128367,multivariate atypical engagement pattern
+CCC,2014J,507031,Withdrawn,16,4,12,2,P2,0.0545389434324491,multivariate atypical engagement pattern
+CCC,2014J,510846,Withdrawn,69,2,31,2,P2,0.000115432800491089,multivariate atypical engagement pattern
+CCC,2014J,518134,Fail,40,1,11,2,P2,0.000356288404450345,multivariate atypical engagement pattern
+CCC,2014J,524276,Withdrawn,74,1,11,2,P2,0.000300221284357805,multivariate atypical engagement pattern
+CCC,2014J,534203,Withdrawn,523,15,10,4,P4,0.100322606343957,multivariate atypical engagement pattern
+CCC,2014J,545255,Fail,222,3,7,2,P2,0.000419425574296417,multivariate atypical engagement pattern
+CCC,2014J,551214,Pass,28,5,9,2,P2,0.0912804286875591,multivariate atypical engagement pattern
+CCC,2014J,551220,Fail,187,10,48,2,P2,0.205020401283996,multivariate atypical engagement pattern
+CCC,2014J,552965,Distinction,1529,24,71,1,P3,0.250203779180958,upper-tail recorded activity
+CCC,2014J,557650,Pass,457,12,78,2,P2,0.38738612508013,upper-tail recorded activity
+CCC,2014J,560723,Withdrawn,26,1,8,2,P2,0.000422817872461678,multivariate atypical engagement pattern
+CCC,2014J,571765,Distinction,136,5,36,2,P2,0.0522668932066545,multivariate atypical engagement pattern
+CCC,2014J,572584,Withdrawn,1236,16,10,4,P4,0.0457684936590254,multivariate atypical engagement pattern
+CCC,2014J,573689,Withdrawn,24,6,2,2,P2,0.0135490760031574,multivariate atypical engagement pattern
+CCC,2014J,575047,Fail,779,9,16,4,P4,0.326430491982478,multivariate atypical engagement pattern
+CCC,2014J,579278,Withdrawn,141,4,4,2,P2,0.00177680932795044,multivariate atypical engagement pattern
+CCC,2014J,580709,Withdrawn,51,1,5,2,P2,0.000342669273301732,multivariate atypical engagement pattern
+CCC,2014J,585154,Pass,712,6,13,2,P2,0.0471743742768321,multivariate atypical engagement pattern
+CCC,2014J,585359,Pass,96,5,29,2,P2,0.0485877927581142,multivariate atypical engagement pattern
+CCC,2014J,591083,Fail,1129,8,33,2,P2,0.0308497591965574,multivariate atypical engagement pattern
+CCC,2014J,592051,Pass,27,6,2,2,P2,0.0160762835122238,multivariate atypical engagement pattern
+CCC,2014J,592093,Pass,47,8,3,2,P2,0.0847547441798904,multivariate atypical engagement pattern
+CCC,2014J,594627,Withdrawn,28,1,6,2,P2,0.000851776980900554,multivariate atypical engagement pattern
+CCC,2014J,596860,Withdrawn,43,1,3,2,P2,0.000116839199521324,multivariate atypical engagement pattern
+CCC,2014J,597365,Pass,2853,28,78,4,P4,0.311747322783185,upper-tail recorded activity
+CCC,2014J,599297,Fail,83,5,28,2,P2,0.0295410290071472,multivariate atypical engagement pattern
+CCC,2014J,602856,Withdrawn,1503,24,83,1,P3,0.116320241125833,upper-tail recorded activity
+CCC,2014J,605540,Distinction,717,28,16,4,P4,0.0873818108703832,upper-tail recorded activity
+CCC,2014J,605666,Pass,11,1,3,2,P2,0.000685435332086315,multivariate atypical engagement pattern
+CCC,2014J,605868,Distinction,2717,16,19,4,P4,0.0108891081497865,upper-tail recorded activity
+CCC,2014J,607900,Withdrawn,2548,28,44,4,P4,0.00622138281491502,upper-tail recorded activity
+CCC,2014J,609044,Withdrawn,36,2,18,2,P2,0.000336861969387758,multivariate atypical engagement pattern
+CCC,2014J,610324,Fail,33,7,9,2,P2,0.111066505681953,multivariate atypical engagement pattern
+CCC,2014J,610650,Pass,60,10,5,2,P2,0.353104262258869,multivariate atypical engagement pattern
+CCC,2014J,611417,Pass,3247,28,37,4,P4,0.00222734834694149,upper-tail recorded activity
+CCC,2014J,613122,Fail,501,11,98,2,P2,0.0980037911015205,upper-tail recorded activity
+CCC,2014J,613644,Withdrawn,112,1,12,2,P2,8.46327690171567e-05,multivariate atypical engagement pattern
+CCC,2014J,618590,Fail,29,1,5,2,P2,0.000918903829162376,multivariate atypical engagement pattern
+CCC,2014J,618777,Distinction,390,15,62,1,P3,0.26366675736295,upper-tail recorded activity
+CCC,2014J,620897,Withdrawn,32,1,4,2,P2,0.000670779969951241,multivariate atypical engagement pattern
+CCC,2014J,621442,Fail,23,2,3,2,P2,0.00700953725923215,multivariate atypical engagement pattern
+CCC,2014J,624730,Withdrawn,13,1,3,2,P2,0.000409786782087807,multivariate atypical engagement pattern
+CCC,2014J,626417,Pass,54,6,3,2,P2,0.069284796845372,multivariate atypical engagement pattern
+CCC,2014J,629056,Withdrawn,142,13,5,2,P2,0.248755809309646,multivariate atypical engagement pattern
+CCC,2014J,630452,Pass,67,1,7,2,P2,0.0002853587630266,multivariate atypical engagement pattern
+CCC,2014J,632637,Fail,178,2,6,2,P2,3.74925237800472e-05,multivariate atypical engagement pattern
+CCC,2014J,634193,Withdrawn,252,4,36,2,P2,0.0459675833120397,multivariate atypical engagement pattern
+CCC,2014J,637754,Distinction,551,14,72,1,P3,0.254255330827405,upper-tail recorded activity
+CCC,2014J,641363,Pass,118,5,31,2,P2,0.076717086169026,multivariate atypical engagement pattern
+CCC,2014J,647184,Withdrawn,18,1,8,2,P2,0.000233079860274321,multivariate atypical engagement pattern
+CCC,2014J,654755,Withdrawn,84,3,2,2,P2,7.73512458998038e-05,multivariate atypical engagement pattern
+CCC,2014J,674541,Distinction,2917,27,40,4,P4,0.00315442471596838,upper-tail recorded activity
+CCC,2014J,675441,Fail,18,1,6,2,P2,0.000360033281769367,multivariate atypical engagement pattern
+CCC,2014J,675477,Pass,598,5,13,2,P2,0.00497033148857617,multivariate atypical engagement pattern
+CCC,2014J,675902,Pass,97,1,4,2,P2,3.17988547615666e-06,multivariate atypical engagement pattern
+CCC,2014J,676469,Fail,43,6,4,2,P2,0.177520852926761,multivariate atypical engagement pattern
+CCC,2014J,677270,Withdrawn,151,2,18,2,P2,0.00344452426608433,multivariate atypical engagement pattern
+CCC,2014J,679363,Fail,218,2,12,2,P2,0.000341277761930381,multivariate atypical engagement pattern
+CCC,2014J,680027,Distinction,1917,26,64,4,P4,0.329944011830943,upper-tail recorded activity
+CCC,2014J,680687,Distinction,815,10,47,1,P3,0.379682613506416,multivariate atypical engagement pattern
+CCC,2014J,682569,Pass,319,15,58,1,P3,0.358055790403978,upper-tail recorded activity
+CCC,2014J,686645,Distinction,253,3,13,2,P2,0.0045757984864806,multivariate atypical engagement pattern
+CCC,2014J,689527,Fail,44,4,18,2,P2,0.00969339555376991,multivariate atypical engagement pattern
+CCC,2014J,695232,Distinction,2555,27,66,4,P4,0.144175312166169,upper-tail recorded activity
+CCC,2014J,695653,Fail,30,2,3,2,P2,0.00666122226191512,multivariate atypical engagement pattern
+CCC,2014J,1332514,Withdrawn,1024,10,21,4,P4,0.274128588233136,multivariate atypical engagement pattern
+CCC,2014J,1345808,Withdrawn,133,5,4,2,P2,0.00841128744364983,multivariate atypical engagement pattern
+CCC,2014J,1352733,Distinction,3125,28,42,4,P4,0.00317770997313149,upper-tail recorded activity
+CCC,2014J,1468838,Withdrawn,55,2,3,2,P2,0.00132088595829949,multivariate atypical engagement pattern
+CCC,2014J,1681946,Withdrawn,185,2,6,2,P2,2.68577700746064e-05,multivariate atypical engagement pattern
+CCC,2014J,1851108,Distinction,675,18,91,1,P3,0.291169942932808,upper-tail recorded activity
+CCC,2014J,2032057,Withdrawn,129,6,53,2,P2,0.00312139938052536,multivariate atypical engagement pattern
+CCC,2014J,2044299,Withdrawn,8,3,2,3,P1,0.216960260214826,multivariate atypical engagement pattern
+CCC,2014J,2405801,Withdrawn,197,1,5,2,P2,1.59946912381415e-08,multivariate atypical engagement pattern
+CCC,2014J,2464386,Pass,233,9,48,2,P2,0.368075713805465,multivariate atypical engagement pattern
+CCC,2014J,2472995,Fail,157,3,23,2,P2,0.0334566322649617,multivariate atypical engagement pattern

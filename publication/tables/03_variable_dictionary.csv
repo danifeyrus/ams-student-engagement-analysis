@@ -1,0 +1,4 @@
+variable,source,definition,model_transformation,interpretation_scale
+total_clicks,studentVle.sum_click,Sum of recorded VLE clicks on course days 0-27,log1p followed by z-standardization,Original count scale
+active_days,studentVle.date,Number of distinct course days with at least one VLE interaction on days 0-27,log1p followed by z-standardization,Original count scale
+distinct_resources,studentVle.id_site,Number of distinct VLE resources accessed on course days 0-27,log1p followed by z-standardization,Original count scale

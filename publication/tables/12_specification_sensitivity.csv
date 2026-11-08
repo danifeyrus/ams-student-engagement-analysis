@@ -1,0 +1,3 @@
+specification,n,overlap_n,fixed_components,covariance_model,primary_covariance_estimable,ARI_on_common_enrollments,comparison_scope
+14-day window in primary cohort,2011,2011,4,EEV,FALSE,0.175,Same enrollments; activity measured on days 0-13 instead of 0-27.
+Opportunity-adjusted inclusion of early withdrawals,2271,2011,4,VEV,TRUE,0.082,Adds early withdrawals and replaces counts with opportunity-adjusted rate/share features.

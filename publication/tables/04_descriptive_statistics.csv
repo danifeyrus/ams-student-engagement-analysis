@@ -1,0 +1,4 @@
+variable,n,missing_n,zero_n,zero_pct,mean,sd,minimum,q1,median,q3,p95,maximum
+total_clicks,2011,0,38,0.019,289.367,317.915,0,110,203,357.5,841.5,3247
+active_days,2011,0,38,0.019,10.143,6.154,0,6,9,14,22,28
+distinct_resources,2011,0,38,0.019,18.17,10.873,0,11,17,24,36,98

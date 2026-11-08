@@ -1,0 +1,10 @@
+G,model,successful_initializations,BIC,winning_initialization,initialization_type,initialization_n,selected_specification,bic_rank,delta_from_global_best,evidence_note
+1,EEE,7,-11559.596756265,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,75,1138.8044296995,strongly less supported by BIC
+2,EVV,7,-10607.5485808195,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,41,186.756254254,strongly less supported by BIC
+3,VVE,5,-10468.2390066209,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,9,47.4466800554001,strongly less supported by BIC
+4,VVE,6,-10420.7923265655,random_subset_2,random subset hierarchy,1000,TRUE,1,0,competitive with global best
+5,VEE,6,-10433.1202683581,random_subset_2,random subset hierarchy,1000,FALSE,2,12.3279417925987,strongly less supported by BIC
+6,VEE,2,-10448.6216881363,random_subset_5,random subset hierarchy,1000,FALSE,4,27.8293615707989,strongly less supported by BIC
+7,EVE,5,-10455.03694151,random_subset_1,random subset hierarchy,1000,FALSE,6,34.2446149444986,strongly less supported by BIC
+8,EEE,7,-10482.5602331597,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,16,61.7679065941993,strongly less supported by BIC
+9,EEE,7,-10512.3368330403,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,28,91.5445064747983,strongly less supported by BIC

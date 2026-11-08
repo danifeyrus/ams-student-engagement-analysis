@@ -1,0 +1,10 @@
+model_feature,component,loading
+z_total_clicks,PC1,-0.58618950818398
+z_active_days,PC1,-0.570807204146901
+z_distinct_resources,PC1,-0.574944341818425
+z_total_clicks,PC2,-0.0989017621405259
+z_active_days,PC2,0.75476459859801
+z_distinct_resources,PC2,-0.648497372507155
+z_total_clicks,PC3,0.804114607466202
+z_active_days,PC3,-0.323279347310006
+z_distinct_resources,PC3,-0.498888927179482

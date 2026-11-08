@@ -1,0 +1,3 @@
+method,n,k_nonempty,mean_silhouette,median_silhouette,negative_silhouette_proportion,between_total_ss_ratio,mean_normalized_posterior_entropy
+Mclust G=4 VVE,2011,4,0.220767101148586,0.298108931823025,0.228244654400796,0.705455902331565,0.362643557923936
+TCLUST retained G=4,1910,4,0.229316999944809,0.356934611901694,0.249214659685864,0.564491177166347,

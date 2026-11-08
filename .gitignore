@@ -1,0 +1,39 @@
+# R sessions and user configuration
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+.Rproj.user/
+
+# Local runtimes, caches, logs, and development artifacts
+/tmp/
+/logs/
+/local_archive/
+/debug.log
+*.log
+/.renv/
+/.vscode/R-library/
+/.vscode/settings.json
+/renv/library/
+/renv/staging/
+/renv/.cache/
+
+# Official data are downloaded and verified by main.R
+/data/raw/
+/data/processed/*
+!/data/processed/mclust_assignments.rds
+!/data/processed/mclust_final_fit.rds
+!/data/processed/tclust_primary_fit.rds
+
+# Private or redistribution-restricted local materials
+/Lesson slides/
+/R scripts/
+/AMS project guidelines 2526.pdf
+/AGENTS.md
+/PROJECT_SPEC.md
+/PROGRESS.md
+/AMS_DEFENSE_MASTER_GUIDE.md
+
+# Machine-specific verification evidence
+/results/vscode_full_execution.log
+/results/vscode_environment_verification.csv

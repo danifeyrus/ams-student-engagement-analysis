@@ -1,0 +1,22 @@
+start,initialization,subset_n,success,log_likelihood,BIC,min_component_n,warnings,ARI_vs_final
+0,winning grid initialization: random_subset_2,1000,TRUE,-5096.30035243615,-10420.7923265655,91,"",0.996858006242865
+1,random clean-subset candidate,1000,FALSE,,,,Mclust returned NULL for this initialization.,
+2,random subset hierarchical initialization,1000,TRUE,-5096.73254933283,-10421.6567203588,88,"",0.882492740369698
+3,random subset hierarchical initialization,1000,TRUE,-5096.75785912993,-10421.707339953,88,"",0.871061667840775
+4,random subset hierarchical initialization,1000,TRUE,-5112.83628641666,-10453.8641945265,150,"",0.570263927614688
+5,random subset hierarchical initialization,1000,TRUE,-5113.49170473895,-10455.1750311711,151,"",0.507583361130286
+6,random subset hierarchical initialization,1000,TRUE,-5273.65087537174,-10775.4933724367,178,"",0.200305298179167
+7,random subset hierarchical initialization,1000,TRUE,-5113.49557914609,-10455.1827799854,151,"",0.51188185585112
+8,random clean-subset candidate,1000,FALSE,,,,Mclust returned NULL for this initialization.,
+9,random subset hierarchical initialization,1000,TRUE,-5096.3536249061,-10420.8988715054,91,"",0.867314885300933
+10,random subset hierarchical initialization,1000,TRUE,-5096.36460923561,-10420.9208401644,91,"",0.862832632971635
+11,random subset hierarchical initialization,1000,TRUE,-5096.26365529239,-10420.718932278,91,"",1
+12,random subset hierarchical initialization,1000,TRUE,-5096.50687413449,-10421.2053699622,91,"",0.83020792434602
+13,random subset hierarchical initialization,1000,TRUE,-5096.28818431478,-10420.7679903227,91,"",0.923281854176335
+14,random clean-subset candidate,1000,FALSE,,,,Mclust returned NULL for this initialization.,
+15,random subset hierarchical initialization,1000,TRUE,-5096.32066550868,-10420.8329527105,91,"",0.990379058429293
+16,random subset hierarchical initialization,1000,TRUE,-5096.51267008754,-10421.2169618683,91,"",0.828681787627205
+17,random subset hierarchical initialization,1000,TRUE,-5096.2940207518,-10420.7796631968,91,"",0.907620967095252
+18,random subset hierarchical initialization,1000,TRUE,-5096.3229987212,-10420.8376191356,91,"",0.898777027060106
+19,random clean-subset candidate,1000,FALSE,,,,Mclust returned NULL for this initialization.,
+20,random subset hierarchical initialization,1000,TRUE,-5113.26785444956,-10454.7273305923,151,"",0.524423156815244

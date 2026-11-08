@@ -1,0 +1,9 @@
+check,unmatched_rows
+studentInfo keys missing from courses,0
+studentRegistration keys missing from courses,0
+vle keys missing from courses,0
+studentVle enrollment keys missing from studentInfo,0
+studentVle resource keys missing from vle,0
+studentAssessment assessment IDs missing from assessments,0
+studentInfo keys missing from registration,0
+registration keys missing from studentInfo,0

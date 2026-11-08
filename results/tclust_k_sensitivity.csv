@@ -1,0 +1,4 @@
+k,success,objective,trimmed_n,min_cluster_n,max_cluster_n,warnings,comparison_note
+3,TRUE,-4454.42076432104,101,59,1698,"",Objectives are compared only at fixed alpha=0.05 and c=20; ARI is not computed across unmatched K.
+4,TRUE,-4421.87353195926,101,38,1717,"",Objectives are compared only at fixed alpha=0.05 and c=20; ARI is not computed across unmatched K.
+5,TRUE,-4428.59007722711,101,7,1688,"",Objectives are compared only at fixed alpha=0.05 and c=20; ARI is not computed across unmatched K.

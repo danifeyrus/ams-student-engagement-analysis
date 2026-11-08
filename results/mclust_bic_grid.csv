@@ -1,0 +1,127 @@
+G,model,successful_initializations,BIC,winning_initialization,initialization_type,initialization_n,selected_specification,bic_rank
+4,VVE,6,-10420.7923265655,random_subset_2,random subset hierarchy,1000,TRUE,1
+5,VEE,6,-10433.1202683581,random_subset_2,random subset hierarchy,1000,FALSE,2
+5,VVE,6,-10438.4179618128,random_subset_3,random subset hierarchy,1000,FALSE,3
+6,VEE,2,-10448.6216881363,random_subset_5,random subset hierarchy,1000,FALSE,4
+4,VVV,2,-10451.6193619817,random_subset_5,random subset hierarchy,1000,FALSE,5
+7,EVE,5,-10455.03694151,random_subset_1,random subset hierarchy,1000,FALSE,6
+6,EVE,6,-10456.0348883067,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,7
+6,VVE,5,-10461.4701889534,random_subset_3,random subset hierarchy,1000,FALSE,8
+3,VVE,5,-10468.2390066209,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,9
+7,EEE,7,-10468.4262712912,random_subset_5,random subset hierarchy,1000,FALSE,10
+3,VVV,7,-10468.6790705169,random_subset_5,random subset hierarchy,1000,FALSE,11
+5,EVV,6,-10473.5235000853,random_subset_1,random subset hierarchy,1000,FALSE,12
+6,EEE,7,-10476.3202780028,random_subset_1,random subset hierarchy,1000,FALSE,13
+5,EVE,6,-10479.8981593073,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,14
+5,EEE,7,-10480.429451053,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,15
+8,EEE,7,-10482.5602331597,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,16
+5,EEV,7,-10486.0472305327,random_subset_2,random subset hierarchy,1000,FALSE,17
+4,EVV,6,-10487.7659839996,random_subset_1,random subset hierarchy,1000,FALSE,18
+8,EVE,2,-10489.8711441748,random_subset_1,random subset hierarchy,1000,FALSE,19
+7,EEV,7,-10491.6752699569,random_subset_1,random subset hierarchy,1000,FALSE,20
+3,VEE,7,-10493.1945573873,random_subset_4,random subset hierarchy,1000,FALSE,21
+4,EVE,6,-10497.081730225,random_subset_3,random subset hierarchy,1000,FALSE,22
+4,VEE,6,-10497.5600667448,random_subset_5,random subset hierarchy,1000,FALSE,23
+7,VVE,2,-10506.1584719899,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,24
+3,EVV,7,-10508.588474361,random_subset_2,random subset hierarchy,1000,FALSE,25
+8,EEV,7,-10508.9476333095,random_subset_3,random subset hierarchy,1000,FALSE,26
+5,VVV,1,-10510.6967898274,random_subset_2,random subset hierarchy,1000,FALSE,27
+9,EEE,7,-10512.3368330403,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,28
+6,EEV,7,-10512.5781734971,random_subset_3,random subset hierarchy,1000,FALSE,29
+7,EVV,5,-10514.3278639611,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,30
+4,EEV,7,-10521.731372224,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,31
+6,EVV,6,-10522.2978224654,random_subset_5,random subset hierarchy,1000,FALSE,32
+9,EVE,2,-10525.1550283467,random_subset_5,random subset hierarchy,1000,FALSE,33
+9,EEV,7,-10535.3720191372,random_subset_3,random subset hierarchy,1000,FALSE,34
+3,EVE,7,-10537.3927225466,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,35
+3,VEV,3,-10556.4634364983,random_subset_5,random subset hierarchy,1000,FALSE,36
+3,EEE,7,-10569.1979794368,random_subset_5,random subset hierarchy,1000,FALSE,37
+3,EEV,7,-10572.1883307995,random_subset_3,random subset hierarchy,1000,FALSE,38
+8,EVV,2,-10576.4769705355,random_subset_1,random subset hierarchy,1000,FALSE,39
+4,EEE,7,-10577.7431924744,random_subset_5,random subset hierarchy,1000,FALSE,40
+2,EVV,7,-10607.5485808195,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,41
+9,EVV,1,-10616.8234544551,random_subset_1,random subset hierarchy,1000,FALSE,42
+2,EVE,7,-10639.7105468638,random_subset_3,random subset hierarchy,1000,FALSE,43
+2,EEE,7,-10664.0830844067,random_subset_3,random subset hierarchy,1000,FALSE,44
+2,VEE,7,-10665.3302280974,random_subset_3,random subset hierarchy,1000,FALSE,45
+2,EEV,7,-10671.9020119485,random_subset_4,random subset hierarchy,1000,FALSE,46
+2,VVV,7,-10698.2539633545,random_subset_5,random subset hierarchy,1000,FALSE,47
+9,EVI,4,-10717.4960824247,random_subset_2,random subset hierarchy,1000,FALSE,48
+8,EVI,4,-10724.2831567044,random_subset_2,random subset hierarchy,1000,FALSE,49
+2,VEV,7,-10727.1982726705,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,50
+9,EEI,7,-10731.2316502167,random_subset_5,random subset hierarchy,1000,FALSE,51
+8,EEI,7,-10743.967673616,random_subset_3,random subset hierarchy,1000,FALSE,52
+9,EII,7,-10759.7392201693,random_subset_1,random subset hierarchy,1000,FALSE,53
+8,EII,7,-10791.9297051929,random_subset_3,random subset hierarchy,1000,FALSE,54
+7,EVI,7,-10800.7421376675,random_subset_4,random subset hierarchy,1000,FALSE,55
+6,VEI,6,-10824.6878932042,random_subset_2,random subset hierarchy,1000,FALSE,56
+7,EEI,7,-10826.4052064705,random_subset_5,random subset hierarchy,1000,FALSE,57
+7,VEI,2,-10844.656176762,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,58
+6,EVI,7,-10895.0924574233,random_subset_4,random subset hierarchy,1000,FALSE,59
+7,EII,7,-10902.3801775473,random_subset_2,random subset hierarchy,1000,FALSE,60
+6,EEI,7,-10925.0529687621,random_subset_4,random subset hierarchy,1000,FALSE,61
+2,VVE,7,-10941.5702296642,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,62
+7,VII,2,-10979.6505468245,random_subset_5,random subset hierarchy,1000,FALSE,63
+6,EII,7,-11001.7493196281,random_subset_4,random subset hierarchy,1000,FALSE,64
+5,VVI,6,-11023.9152132667,random_subset_3,random subset hierarchy,1000,FALSE,65
+6,VII,1,-11048.1740282721,random_subset_3,random subset hierarchy,1000,FALSE,66
+5,VEI,6,-11053.2607182689,random_subset_3,random subset hierarchy,1000,FALSE,67
+5,VII,6,-11114.963231466,random_subset_2,random subset hierarchy,1000,FALSE,68
+5,EVI,7,-11169.0952877273,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,69
+5,EEI,7,-11206.2346020017,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,70
+5,EII,7,-11264.2997058014,random_subset_2,random subset hierarchy,1000,FALSE,71
+4,VVI,6,-11388.9805752897,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,72
+4,VEI,6,-11416.7058490286,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,73
+4,VII,6,-11450.6012483145,random_subset_5,random subset hierarchy,1000,FALSE,74
+1,EEE,7,-11559.596756265,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,75
+1,EEV,7,-11559.596756265,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,75
+1,EVE,7,-11559.596756265,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,75
+1,EVV,7,-11559.596756265,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,75
+1,VEE,7,-11559.596756265,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,75
+1,VEV,7,-11559.596756265,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,75
+1,VVE,7,-11559.596756265,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,75
+1,VVV,7,-11559.596756265,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,75
+4,EVI,7,-11571.0207267351,random_subset_2,random subset hierarchy,1000,FALSE,83
+4,EEI,7,-11629.9495485104,random_subset_2,random subset hierarchy,1000,FALSE,84
+4,EII,7,-11641.3886700885,random_subset_3,random subset hierarchy,1000,FALSE,85
+3,VVI,7,-12197.9501982362,random_subset_5,random subset hierarchy,1000,FALSE,86
+3,VEI,7,-12244.5976500482,random_subset_3,random subset hierarchy,1000,FALSE,87
+3,VII,7,-12267.0767760518,random_subset_3,random subset hierarchy,1000,FALSE,88
+3,EEI,7,-12462.4864688616,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,89
+3,EII,7,-12480.3077784149,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,90
+3,EVI,7,-12481.3525239631,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,91
+2,VVI,7,-13941.8134342703,random_subset_3,random subset hierarchy,1000,FALSE,92
+2,VII,7,-14006.6630385215,random_subset_1,random subset hierarchy,1000,FALSE,93
+2,VEI,7,-14007.3634621435,random_subset_2,random subset hierarchy,1000,FALSE,94
+2,EVI,7,-14366.7789472214,random_subset_4,random subset hierarchy,1000,FALSE,95
+2,EEI,7,-14406.8313030284,random_subset_3,random subset hierarchy,1000,FALSE,96
+2,EII,7,-14449.4237079979,random_subset_4,random subset hierarchy,1000,FALSE,97
+1,EII,7,-17148.3371450618,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,98
+1,VII,7,-17148.3371450618,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,98
+1,EEI,7,-17163.5499198413,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,100
+1,EVI,7,-17163.5499198413,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,100
+1,VEI,7,-17163.5499198413,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,100
+1,VVI,7,-17163.5499198413,full_standardized_hierarchy,full-data hierarchy,2011,FALSE,100
+4,VEV,,,,,,FALSE,
+5,VEV,,,,,,FALSE,
+6,VEV,,,,,,FALSE,
+6,VVI,,,,,,FALSE,
+6,VVV,,,,,,FALSE,
+7,VEE,,,,,,FALSE,
+7,VEV,,,,,,FALSE,
+7,VVI,,,,,,FALSE,
+7,VVV,,,,,,FALSE,
+8,VEE,,,,,,FALSE,
+8,VEI,,,,,,FALSE,
+8,VEV,,,,,,FALSE,
+8,VII,,,,,,FALSE,
+8,VVE,,,,,,FALSE,
+8,VVI,,,,,,FALSE,
+8,VVV,,,,,,FALSE,
+9,VEE,,,,,,FALSE,
+9,VEI,,,,,,FALSE,
+9,VEV,,,,,,FALSE,
+9,VII,,,,,,FALSE,
+9,VVE,,,,,,FALSE,
+9,VVI,,,,,,FALSE,
+9,VVV,,,,,,FALSE,

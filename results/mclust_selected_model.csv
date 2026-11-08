@@ -1,0 +1,2 @@
+selected_G,selected_model,BIC,log_likelihood,degrees_of_freedom,n,model_dimension,bic_search_initializations,winning_bic_initialization,best_initialization_row,successful_restarts,failed_restarts,minimum_component_n,mean_uncertainty,median_uncertainty,uncertainty_above_0_20_n,any_small_component,any_near_singular_component,initial_to_final_loglik_gain
+4,VVE,-10420.718932278,-5096.26365529239,30,2011,3,7,random_subset_2,12,17,4,91,0.217062373829649,0.196905806869734,988,FALSE,FALSE,0.0366971437579196

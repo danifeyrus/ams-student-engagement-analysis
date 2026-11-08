@@ -1,0 +1,2 @@
+code_module,code_presentation,module_presentation_length,enrollment_n,registration_date_observed,registered_by_day0,active_at_day0,early_unregistered_days_0_27,eligible_full_window,early_vle_rows,early_vle_students,coverage_days,min_activity_day,max_activity_day,early_clicks,eligible_zero_click_n,eligible_with_click_n,unmatched_early_resource_rows,resource_linkage_rate,eligible_zero_click_pct,selection_eligible
+CCC,2014J,269,2498,2495,2482,2271,260,2011,143313,2190,28,0,27,613371,38,1973,0,1,0.0188960716061661,TRUE

@@ -1,0 +1,883 @@
+G,model,BIC,initialization_id,initialization_type,initialization_n
+1,EII,-17148.3371450618,full_standardized_hierarchy,full-data hierarchy,2011
+2,EII,-14449.4899298321,full_standardized_hierarchy,full-data hierarchy,2011
+3,EII,-12480.3077784149,full_standardized_hierarchy,full-data hierarchy,2011
+4,EII,-11641.43619986,full_standardized_hierarchy,full-data hierarchy,2011
+5,EII,-11264.3735787855,full_standardized_hierarchy,full-data hierarchy,2011
+6,EII,-11002.7302660419,full_standardized_hierarchy,full-data hierarchy,2011
+7,EII,-10906.0573983298,full_standardized_hierarchy,full-data hierarchy,2011
+8,EII,-10792.2415208344,full_standardized_hierarchy,full-data hierarchy,2011
+9,EII,-10759.9986348997,full_standardized_hierarchy,full-data hierarchy,2011
+1,VII,-17148.3371450618,full_standardized_hierarchy,full-data hierarchy,2011
+2,VII,-14006.7524854822,full_standardized_hierarchy,full-data hierarchy,2011
+3,VII,-12267.2205711239,full_standardized_hierarchy,full-data hierarchy,2011
+4,VII,-11450.6403135534,full_standardized_hierarchy,full-data hierarchy,2011
+5,VII,-11115.6885978468,full_standardized_hierarchy,full-data hierarchy,2011
+6,VII,,full_standardized_hierarchy,full-data hierarchy,2011
+7,VII,,full_standardized_hierarchy,full-data hierarchy,2011
+8,VII,,full_standardized_hierarchy,full-data hierarchy,2011
+9,VII,,full_standardized_hierarchy,full-data hierarchy,2011
+1,EEI,-17163.5499198413,full_standardized_hierarchy,full-data hierarchy,2011
+2,EEI,-14406.8378575442,full_standardized_hierarchy,full-data hierarchy,2011
+3,EEI,-12462.4864688616,full_standardized_hierarchy,full-data hierarchy,2011
+4,EEI,-11629.9873805002,full_standardized_hierarchy,full-data hierarchy,2011
+5,EEI,-11206.2346020017,full_standardized_hierarchy,full-data hierarchy,2011
+6,EEI,-10926.6338088608,full_standardized_hierarchy,full-data hierarchy,2011
+7,EEI,-10827.0635671572,full_standardized_hierarchy,full-data hierarchy,2011
+8,EEI,-10744.0643451034,full_standardized_hierarchy,full-data hierarchy,2011
+9,EEI,-10732.299212836,full_standardized_hierarchy,full-data hierarchy,2011
+1,VEI,-17163.5499198413,full_standardized_hierarchy,full-data hierarchy,2011
+2,VEI,-14007.3951096399,full_standardized_hierarchy,full-data hierarchy,2011
+3,VEI,-12244.7771623433,full_standardized_hierarchy,full-data hierarchy,2011
+4,VEI,-11416.7058490286,full_standardized_hierarchy,full-data hierarchy,2011
+5,VEI,-11054.3127542313,full_standardized_hierarchy,full-data hierarchy,2011
+6,VEI,-10824.7202763247,full_standardized_hierarchy,full-data hierarchy,2011
+7,VEI,-10844.656176762,full_standardized_hierarchy,full-data hierarchy,2011
+8,VEI,,full_standardized_hierarchy,full-data hierarchy,2011
+9,VEI,,full_standardized_hierarchy,full-data hierarchy,2011
+1,EVI,-17163.5499198413,full_standardized_hierarchy,full-data hierarchy,2011
+2,EVI,-14366.8488308409,full_standardized_hierarchy,full-data hierarchy,2011
+3,EVI,-12481.3525239631,full_standardized_hierarchy,full-data hierarchy,2011
+4,EVI,-11571.0975956073,full_standardized_hierarchy,full-data hierarchy,2011
+5,EVI,-11169.0952877273,full_standardized_hierarchy,full-data hierarchy,2011
+6,EVI,-10895.1897664447,full_standardized_hierarchy,full-data hierarchy,2011
+7,EVI,-10801.6410063874,full_standardized_hierarchy,full-data hierarchy,2011
+8,EVI,,full_standardized_hierarchy,full-data hierarchy,2011
+9,EVI,,full_standardized_hierarchy,full-data hierarchy,2011
+1,VVI,-17163.5499198413,full_standardized_hierarchy,full-data hierarchy,2011
+2,VVI,-13941.8136899584,full_standardized_hierarchy,full-data hierarchy,2011
+3,VVI,-12198.0341169956,full_standardized_hierarchy,full-data hierarchy,2011
+4,VVI,-11388.9805752897,full_standardized_hierarchy,full-data hierarchy,2011
+5,VVI,-11024.9248229988,full_standardized_hierarchy,full-data hierarchy,2011
+6,VVI,,full_standardized_hierarchy,full-data hierarchy,2011
+7,VVI,,full_standardized_hierarchy,full-data hierarchy,2011
+8,VVI,,full_standardized_hierarchy,full-data hierarchy,2011
+9,VVI,,full_standardized_hierarchy,full-data hierarchy,2011
+1,EEE,-11559.596756265,full_standardized_hierarchy,full-data hierarchy,2011
+2,EEE,-10664.0884826296,full_standardized_hierarchy,full-data hierarchy,2011
+3,EEE,-10569.262125573,full_standardized_hierarchy,full-data hierarchy,2011
+4,EEE,-10578.627888803,full_standardized_hierarchy,full-data hierarchy,2011
+5,EEE,-10480.429451053,full_standardized_hierarchy,full-data hierarchy,2011
+6,EEE,-10490.4642672503,full_standardized_hierarchy,full-data hierarchy,2011
+7,EEE,-10475.1432119635,full_standardized_hierarchy,full-data hierarchy,2011
+8,EEE,-10482.5602331597,full_standardized_hierarchy,full-data hierarchy,2011
+9,EEE,-10512.3368330403,full_standardized_hierarchy,full-data hierarchy,2011
+1,VEE,-11559.596756265,full_standardized_hierarchy,full-data hierarchy,2011
+2,VEE,-10665.3583246369,full_standardized_hierarchy,full-data hierarchy,2011
+3,VEE,-10493.5391822858,full_standardized_hierarchy,full-data hierarchy,2011
+4,VEE,-10502.4821740871,full_standardized_hierarchy,full-data hierarchy,2011
+5,VEE,-10433.7028778827,full_standardized_hierarchy,full-data hierarchy,2011
+6,VEE,,full_standardized_hierarchy,full-data hierarchy,2011
+7,VEE,,full_standardized_hierarchy,full-data hierarchy,2011
+8,VEE,,full_standardized_hierarchy,full-data hierarchy,2011
+9,VEE,,full_standardized_hierarchy,full-data hierarchy,2011
+1,EVE,-11559.596756265,full_standardized_hierarchy,full-data hierarchy,2011
+2,EVE,-10639.7108787009,full_standardized_hierarchy,full-data hierarchy,2011
+3,EVE,-10537.3927225466,full_standardized_hierarchy,full-data hierarchy,2011
+4,EVE,-10497.2269484415,full_standardized_hierarchy,full-data hierarchy,2011
+5,EVE,-10479.8981593073,full_standardized_hierarchy,full-data hierarchy,2011
+6,EVE,-10456.0348883067,full_standardized_hierarchy,full-data hierarchy,2011
+7,EVE,-10456.5637193142,full_standardized_hierarchy,full-data hierarchy,2011
+8,EVE,,full_standardized_hierarchy,full-data hierarchy,2011
+9,EVE,,full_standardized_hierarchy,full-data hierarchy,2011
+1,VVE,-11559.596756265,full_standardized_hierarchy,full-data hierarchy,2011
+2,VVE,-10941.5702296642,full_standardized_hierarchy,full-data hierarchy,2011
+3,VVE,-10468.2390066209,full_standardized_hierarchy,full-data hierarchy,2011
+4,VVE,-10420.812020599,full_standardized_hierarchy,full-data hierarchy,2011
+5,VVE,-10438.9767417891,full_standardized_hierarchy,full-data hierarchy,2011
+6,VVE,-10462.2395440962,full_standardized_hierarchy,full-data hierarchy,2011
+7,VVE,-10506.1584719899,full_standardized_hierarchy,full-data hierarchy,2011
+8,VVE,,full_standardized_hierarchy,full-data hierarchy,2011
+9,VVE,,full_standardized_hierarchy,full-data hierarchy,2011
+1,EEV,-11559.596756265,full_standardized_hierarchy,full-data hierarchy,2011
+2,EEV,-10671.9047003078,full_standardized_hierarchy,full-data hierarchy,2011
+3,EEV,-10572.2556901708,full_standardized_hierarchy,full-data hierarchy,2011
+4,EEV,-10521.731372224,full_standardized_hierarchy,full-data hierarchy,2011
+5,EEV,-10503.4212811776,full_standardized_hierarchy,full-data hierarchy,2011
+6,EEV,-10524.7114093322,full_standardized_hierarchy,full-data hierarchy,2011
+7,EEV,-10507.1534231606,full_standardized_hierarchy,full-data hierarchy,2011
+8,EEV,-10511.6933393196,full_standardized_hierarchy,full-data hierarchy,2011
+9,EEV,-10559.4532788575,full_standardized_hierarchy,full-data hierarchy,2011
+1,VEV,-11559.596756265,full_standardized_hierarchy,full-data hierarchy,2011
+2,VEV,-10727.1982726705,full_standardized_hierarchy,full-data hierarchy,2011
+3,VEV,,full_standardized_hierarchy,full-data hierarchy,2011
+4,VEV,,full_standardized_hierarchy,full-data hierarchy,2011
+5,VEV,,full_standardized_hierarchy,full-data hierarchy,2011
+6,VEV,,full_standardized_hierarchy,full-data hierarchy,2011
+7,VEV,,full_standardized_hierarchy,full-data hierarchy,2011
+8,VEV,,full_standardized_hierarchy,full-data hierarchy,2011
+9,VEV,,full_standardized_hierarchy,full-data hierarchy,2011
+1,EVV,-11559.596756265,full_standardized_hierarchy,full-data hierarchy,2011
+2,EVV,-10607.5485808195,full_standardized_hierarchy,full-data hierarchy,2011
+3,EVV,-10509.9672502063,full_standardized_hierarchy,full-data hierarchy,2011
+4,EVV,-10488.1092558341,full_standardized_hierarchy,full-data hierarchy,2011
+5,EVV,-10520.9677101371,full_standardized_hierarchy,full-data hierarchy,2011
+6,EVV,-10537.1557071175,full_standardized_hierarchy,full-data hierarchy,2011
+7,EVV,-10514.3278639611,full_standardized_hierarchy,full-data hierarchy,2011
+8,EVV,,full_standardized_hierarchy,full-data hierarchy,2011
+9,EVV,,full_standardized_hierarchy,full-data hierarchy,2011
+1,VVV,-11559.596756265,full_standardized_hierarchy,full-data hierarchy,2011
+2,VVV,-10698.4976519817,full_standardized_hierarchy,full-data hierarchy,2011
+3,VVV,-10470.5080541011,full_standardized_hierarchy,full-data hierarchy,2011
+4,VVV,,full_standardized_hierarchy,full-data hierarchy,2011
+5,VVV,,full_standardized_hierarchy,full-data hierarchy,2011
+6,VVV,,full_standardized_hierarchy,full-data hierarchy,2011
+7,VVV,,full_standardized_hierarchy,full-data hierarchy,2011
+8,VVV,,full_standardized_hierarchy,full-data hierarchy,2011
+9,VVV,,full_standardized_hierarchy,full-data hierarchy,2011
+1,EII,-17148.3371450618,full_robust_affine_hierarchy,full-data hierarchy,2011
+2,EII,-14449.4899298321,full_robust_affine_hierarchy,full-data hierarchy,2011
+3,EII,-12480.3077784149,full_robust_affine_hierarchy,full-data hierarchy,2011
+4,EII,-11641.43619986,full_robust_affine_hierarchy,full-data hierarchy,2011
+5,EII,-11264.3735787855,full_robust_affine_hierarchy,full-data hierarchy,2011
+6,EII,-11002.7302660419,full_robust_affine_hierarchy,full-data hierarchy,2011
+7,EII,-10906.0573983298,full_robust_affine_hierarchy,full-data hierarchy,2011
+8,EII,-10792.2415208344,full_robust_affine_hierarchy,full-data hierarchy,2011
+9,EII,-10759.9986348997,full_robust_affine_hierarchy,full-data hierarchy,2011
+1,VII,-17148.3371450618,full_robust_affine_hierarchy,full-data hierarchy,2011
+2,VII,-14006.7524854822,full_robust_affine_hierarchy,full-data hierarchy,2011
+3,VII,-12267.2205711239,full_robust_affine_hierarchy,full-data hierarchy,2011
+4,VII,-11450.6403135534,full_robust_affine_hierarchy,full-data hierarchy,2011
+5,VII,-11115.6885978468,full_robust_affine_hierarchy,full-data hierarchy,2011
+6,VII,,full_robust_affine_hierarchy,full-data hierarchy,2011
+7,VII,,full_robust_affine_hierarchy,full-data hierarchy,2011
+8,VII,,full_robust_affine_hierarchy,full-data hierarchy,2011
+9,VII,,full_robust_affine_hierarchy,full-data hierarchy,2011
+1,EEI,-17163.5499198413,full_robust_affine_hierarchy,full-data hierarchy,2011
+2,EEI,-14406.8378575442,full_robust_affine_hierarchy,full-data hierarchy,2011
+3,EEI,-12462.4864688616,full_robust_affine_hierarchy,full-data hierarchy,2011
+4,EEI,-11629.9873805002,full_robust_affine_hierarchy,full-data hierarchy,2011
+5,EEI,-11206.2346020017,full_robust_affine_hierarchy,full-data hierarchy,2011
+6,EEI,-10926.6338088608,full_robust_affine_hierarchy,full-data hierarchy,2011
+7,EEI,-10827.0635671572,full_robust_affine_hierarchy,full-data hierarchy,2011
+8,EEI,-10744.0643451034,full_robust_affine_hierarchy,full-data hierarchy,2011
+9,EEI,-10732.299212836,full_robust_affine_hierarchy,full-data hierarchy,2011
+1,VEI,-17163.5499198413,full_robust_affine_hierarchy,full-data hierarchy,2011
+2,VEI,-14007.3951096399,full_robust_affine_hierarchy,full-data hierarchy,2011
+3,VEI,-12244.7771623433,full_robust_affine_hierarchy,full-data hierarchy,2011
+4,VEI,-11416.7058490286,full_robust_affine_hierarchy,full-data hierarchy,2011
+5,VEI,-11054.3127542313,full_robust_affine_hierarchy,full-data hierarchy,2011
+6,VEI,-10824.7202763247,full_robust_affine_hierarchy,full-data hierarchy,2011
+7,VEI,-10844.656176762,full_robust_affine_hierarchy,full-data hierarchy,2011
+8,VEI,,full_robust_affine_hierarchy,full-data hierarchy,2011
+9,VEI,,full_robust_affine_hierarchy,full-data hierarchy,2011
+1,EVI,-17163.5499198413,full_robust_affine_hierarchy,full-data hierarchy,2011
+2,EVI,-14366.8488308409,full_robust_affine_hierarchy,full-data hierarchy,2011
+3,EVI,-12481.3525239631,full_robust_affine_hierarchy,full-data hierarchy,2011
+4,EVI,-11571.0975956073,full_robust_affine_hierarchy,full-data hierarchy,2011
+5,EVI,-11169.0952877273,full_robust_affine_hierarchy,full-data hierarchy,2011
+6,EVI,-10895.1897664447,full_robust_affine_hierarchy,full-data hierarchy,2011
+7,EVI,-10801.6410063874,full_robust_affine_hierarchy,full-data hierarchy,2011
+8,EVI,,full_robust_affine_hierarchy,full-data hierarchy,2011
+9,EVI,,full_robust_affine_hierarchy,full-data hierarchy,2011
+1,VVI,-17163.5499198413,full_robust_affine_hierarchy,full-data hierarchy,2011
+2,VVI,-13941.8136899584,full_robust_affine_hierarchy,full-data hierarchy,2011
+3,VVI,-12198.0341169956,full_robust_affine_hierarchy,full-data hierarchy,2011
+4,VVI,-11388.9805752897,full_robust_affine_hierarchy,full-data hierarchy,2011
+5,VVI,-11024.9248229988,full_robust_affine_hierarchy,full-data hierarchy,2011
+6,VVI,,full_robust_affine_hierarchy,full-data hierarchy,2011
+7,VVI,,full_robust_affine_hierarchy,full-data hierarchy,2011
+8,VVI,,full_robust_affine_hierarchy,full-data hierarchy,2011
+9,VVI,,full_robust_affine_hierarchy,full-data hierarchy,2011
+1,EEE,-11559.596756265,full_robust_affine_hierarchy,full-data hierarchy,2011
+2,EEE,-10664.0884826296,full_robust_affine_hierarchy,full-data hierarchy,2011
+3,EEE,-10569.262125573,full_robust_affine_hierarchy,full-data hierarchy,2011
+4,EEE,-10578.627888803,full_robust_affine_hierarchy,full-data hierarchy,2011
+5,EEE,-10480.429451053,full_robust_affine_hierarchy,full-data hierarchy,2011
+6,EEE,-10490.4642672503,full_robust_affine_hierarchy,full-data hierarchy,2011
+7,EEE,-10475.1432119635,full_robust_affine_hierarchy,full-data hierarchy,2011
+8,EEE,-10482.5602331597,full_robust_affine_hierarchy,full-data hierarchy,2011
+9,EEE,-10512.3368330403,full_robust_affine_hierarchy,full-data hierarchy,2011
+1,VEE,-11559.596756265,full_robust_affine_hierarchy,full-data hierarchy,2011
+2,VEE,-10665.3583246369,full_robust_affine_hierarchy,full-data hierarchy,2011
+3,VEE,-10493.5391822858,full_robust_affine_hierarchy,full-data hierarchy,2011
+4,VEE,-10502.4821740871,full_robust_affine_hierarchy,full-data hierarchy,2011
+5,VEE,-10433.7028778827,full_robust_affine_hierarchy,full-data hierarchy,2011
+6,VEE,,full_robust_affine_hierarchy,full-data hierarchy,2011
+7,VEE,,full_robust_affine_hierarchy,full-data hierarchy,2011
+8,VEE,,full_robust_affine_hierarchy,full-data hierarchy,2011
+9,VEE,,full_robust_affine_hierarchy,full-data hierarchy,2011
+1,EVE,-11559.596756265,full_robust_affine_hierarchy,full-data hierarchy,2011
+2,EVE,-10639.7108787009,full_robust_affine_hierarchy,full-data hierarchy,2011
+3,EVE,-10537.3927225466,full_robust_affine_hierarchy,full-data hierarchy,2011
+4,EVE,-10497.2269484415,full_robust_affine_hierarchy,full-data hierarchy,2011
+5,EVE,-10479.8981593073,full_robust_affine_hierarchy,full-data hierarchy,2011
+6,EVE,-10456.0348883067,full_robust_affine_hierarchy,full-data hierarchy,2011
+7,EVE,-10456.5637193142,full_robust_affine_hierarchy,full-data hierarchy,2011
+8,EVE,,full_robust_affine_hierarchy,full-data hierarchy,2011
+9,EVE,,full_robust_affine_hierarchy,full-data hierarchy,2011
+1,VVE,-11559.596756265,full_robust_affine_hierarchy,full-data hierarchy,2011
+2,VVE,-10941.5702296642,full_robust_affine_hierarchy,full-data hierarchy,2011
+3,VVE,-10468.2390066209,full_robust_affine_hierarchy,full-data hierarchy,2011
+4,VVE,-10420.812020599,full_robust_affine_hierarchy,full-data hierarchy,2011
+5,VVE,-10438.9767417891,full_robust_affine_hierarchy,full-data hierarchy,2011
+6,VVE,-10462.2395440962,full_robust_affine_hierarchy,full-data hierarchy,2011
+7,VVE,-10506.1584719899,full_robust_affine_hierarchy,full-data hierarchy,2011
+8,VVE,,full_robust_affine_hierarchy,full-data hierarchy,2011
+9,VVE,,full_robust_affine_hierarchy,full-data hierarchy,2011
+1,EEV,-11559.596756265,full_robust_affine_hierarchy,full-data hierarchy,2011
+2,EEV,-10671.9047003078,full_robust_affine_hierarchy,full-data hierarchy,2011
+3,EEV,-10572.2556901708,full_robust_affine_hierarchy,full-data hierarchy,2011
+4,EEV,-10521.731372224,full_robust_affine_hierarchy,full-data hierarchy,2011
+5,EEV,-10503.4212811776,full_robust_affine_hierarchy,full-data hierarchy,2011
+6,EEV,-10524.7114093322,full_robust_affine_hierarchy,full-data hierarchy,2011
+7,EEV,-10507.1534231606,full_robust_affine_hierarchy,full-data hierarchy,2011
+8,EEV,-10511.6933393196,full_robust_affine_hierarchy,full-data hierarchy,2011
+9,EEV,-10559.4532788575,full_robust_affine_hierarchy,full-data hierarchy,2011
+1,VEV,-11559.596756265,full_robust_affine_hierarchy,full-data hierarchy,2011
+2,VEV,-10727.1982726705,full_robust_affine_hierarchy,full-data hierarchy,2011
+3,VEV,,full_robust_affine_hierarchy,full-data hierarchy,2011
+4,VEV,,full_robust_affine_hierarchy,full-data hierarchy,2011
+5,VEV,,full_robust_affine_hierarchy,full-data hierarchy,2011
+6,VEV,,full_robust_affine_hierarchy,full-data hierarchy,2011
+7,VEV,,full_robust_affine_hierarchy,full-data hierarchy,2011
+8,VEV,,full_robust_affine_hierarchy,full-data hierarchy,2011
+9,VEV,,full_robust_affine_hierarchy,full-data hierarchy,2011
+1,EVV,-11559.596756265,full_robust_affine_hierarchy,full-data hierarchy,2011
+2,EVV,-10607.5485808195,full_robust_affine_hierarchy,full-data hierarchy,2011
+3,EVV,-10509.9672502063,full_robust_affine_hierarchy,full-data hierarchy,2011
+4,EVV,-10488.1092558341,full_robust_affine_hierarchy,full-data hierarchy,2011
+5,EVV,-10520.9677101371,full_robust_affine_hierarchy,full-data hierarchy,2011
+6,EVV,-10537.1557071175,full_robust_affine_hierarchy,full-data hierarchy,2011
+7,EVV,-10514.3278639611,full_robust_affine_hierarchy,full-data hierarchy,2011
+8,EVV,,full_robust_affine_hierarchy,full-data hierarchy,2011
+9,EVV,,full_robust_affine_hierarchy,full-data hierarchy,2011
+1,VVV,-11559.596756265,full_robust_affine_hierarchy,full-data hierarchy,2011
+2,VVV,-10698.4976519817,full_robust_affine_hierarchy,full-data hierarchy,2011
+3,VVV,-10470.5080541011,full_robust_affine_hierarchy,full-data hierarchy,2011
+4,VVV,,full_robust_affine_hierarchy,full-data hierarchy,2011
+5,VVV,,full_robust_affine_hierarchy,full-data hierarchy,2011
+6,VVV,,full_robust_affine_hierarchy,full-data hierarchy,2011
+7,VVV,,full_robust_affine_hierarchy,full-data hierarchy,2011
+8,VVV,,full_robust_affine_hierarchy,full-data hierarchy,2011
+9,VVV,,full_robust_affine_hierarchy,full-data hierarchy,2011
+1,EII,-17148.3371450618,random_subset_1,random subset hierarchy,1000
+2,EII,-14449.4423142345,random_subset_1,random subset hierarchy,1000
+3,EII,-12480.4512563419,random_subset_1,random subset hierarchy,1000
+4,EII,-11641.4617224136,random_subset_1,random subset hierarchy,1000
+5,EII,-11264.3746824325,random_subset_1,random subset hierarchy,1000
+6,EII,-11002.6774350631,random_subset_1,random subset hierarchy,1000
+7,EII,-10907.1363165409,random_subset_1,random subset hierarchy,1000
+8,EII,-10792.2531857234,random_subset_1,random subset hierarchy,1000
+9,EII,-10759.7392201693,random_subset_1,random subset hierarchy,1000
+1,VII,-17148.3371450618,random_subset_1,random subset hierarchy,1000
+2,VII,-14006.6630385215,random_subset_1,random subset hierarchy,1000
+3,VII,-12267.4890998062,random_subset_1,random subset hierarchy,1000
+4,VII,-11450.6442489655,random_subset_1,random subset hierarchy,1000
+5,VII,-11115.6637676523,random_subset_1,random subset hierarchy,1000
+6,VII,,random_subset_1,random subset hierarchy,1000
+7,VII,,random_subset_1,random subset hierarchy,1000
+8,VII,,random_subset_1,random subset hierarchy,1000
+9,VII,,random_subset_1,random subset hierarchy,1000
+1,EEI,-17163.5499198413,random_subset_1,random subset hierarchy,1000
+2,EEI,-14406.8529627209,random_subset_1,random subset hierarchy,1000
+3,EEI,-12462.6413815233,random_subset_1,random subset hierarchy,1000
+4,EEI,-11630.0075385657,random_subset_1,random subset hierarchy,1000
+5,EEI,-11206.2617079107,random_subset_1,random subset hierarchy,1000
+6,EEI,-10926.5835811925,random_subset_1,random subset hierarchy,1000
+7,EEI,-10826.9688884676,random_subset_1,random subset hierarchy,1000
+8,EEI,-10744.0648194405,random_subset_1,random subset hierarchy,1000
+9,EEI,-10732.2144513851,random_subset_1,random subset hierarchy,1000
+1,VEI,-17163.5499198413,random_subset_1,random subset hierarchy,1000
+2,VEI,-14007.3916231471,random_subset_1,random subset hierarchy,1000
+3,VEI,-12244.9636510635,random_subset_1,random subset hierarchy,1000
+4,VEI,-11416.7417466481,random_subset_1,random subset hierarchy,1000
+5,VEI,-11054.2887258071,random_subset_1,random subset hierarchy,1000
+6,VEI,-10961.1746949829,random_subset_1,random subset hierarchy,1000
+7,VEI,,random_subset_1,random subset hierarchy,1000
+8,VEI,,random_subset_1,random subset hierarchy,1000
+9,VEI,,random_subset_1,random subset hierarchy,1000
+1,EVI,-17163.5499198413,random_subset_1,random subset hierarchy,1000
+2,EVI,-14366.8024912639,random_subset_1,random subset hierarchy,1000
+3,EVI,-12481.4884828859,random_subset_1,random subset hierarchy,1000
+4,EVI,-11571.0981303316,random_subset_1,random subset hierarchy,1000
+5,EVI,-11169.1419400329,random_subset_1,random subset hierarchy,1000
+6,EVI,-10895.2526572344,random_subset_1,random subset hierarchy,1000
+7,EVI,-10801.6817114025,random_subset_1,random subset hierarchy,1000
+8,EVI,-10760.0096699443,random_subset_1,random subset hierarchy,1000
+9,EVI,-10756.556373232,random_subset_1,random subset hierarchy,1000
+1,VVI,-17163.5499198413,random_subset_1,random subset hierarchy,1000
+2,VVI,-13941.8714158162,random_subset_1,random subset hierarchy,1000
+3,VVI,-12198.0438624699,random_subset_1,random subset hierarchy,1000
+4,VVI,-11389.0085636526,random_subset_1,random subset hierarchy,1000
+5,VVI,-11024.6054107902,random_subset_1,random subset hierarchy,1000
+6,VVI,,random_subset_1,random subset hierarchy,1000
+7,VVI,,random_subset_1,random subset hierarchy,1000
+8,VVI,,random_subset_1,random subset hierarchy,1000
+9,VVI,,random_subset_1,random subset hierarchy,1000
+1,EEE,-11559.596756265,random_subset_1,random subset hierarchy,1000
+2,EEE,-10664.0832932823,random_subset_1,random subset hierarchy,1000
+3,EEE,-10569.2540586698,random_subset_1,random subset hierarchy,1000
+4,EEE,-10578.6913479392,random_subset_1,random subset hierarchy,1000
+5,EEE,-10533.4525119987,random_subset_1,random subset hierarchy,1000
+6,EEE,-10476.3202780028,random_subset_1,random subset hierarchy,1000
+7,EEE,-10489.9152664765,random_subset_1,random subset hierarchy,1000
+8,EEE,-10517.8521483999,random_subset_1,random subset hierarchy,1000
+9,EEE,-10545.3036392368,random_subset_1,random subset hierarchy,1000
+1,VEE,-11559.596756265,random_subset_1,random subset hierarchy,1000
+2,VEE,-10665.3571992785,random_subset_1,random subset hierarchy,1000
+3,VEE,-10493.3011675652,random_subset_1,random subset hierarchy,1000
+4,VEE,-10503.8654848085,random_subset_1,random subset hierarchy,1000
+5,VEE,-10508.1796020315,random_subset_1,random subset hierarchy,1000
+6,VEE,,random_subset_1,random subset hierarchy,1000
+7,VEE,,random_subset_1,random subset hierarchy,1000
+8,VEE,,random_subset_1,random subset hierarchy,1000
+9,VEE,,random_subset_1,random subset hierarchy,1000
+1,EVE,-11559.596756265,random_subset_1,random subset hierarchy,1000
+2,EVE,-10639.7186105793,random_subset_1,random subset hierarchy,1000
+3,EVE,-10537.4092563209,random_subset_1,random subset hierarchy,1000
+4,EVE,-10497.2583786279,random_subset_1,random subset hierarchy,1000
+5,EVE,-10480.2853626261,random_subset_1,random subset hierarchy,1000
+6,EVE,-10513.5567771932,random_subset_1,random subset hierarchy,1000
+7,EVE,-10455.03694151,random_subset_1,random subset hierarchy,1000
+8,EVE,-10489.8711441748,random_subset_1,random subset hierarchy,1000
+9,EVE,-10527.9133908326,random_subset_1,random subset hierarchy,1000
+1,VVE,-11559.596756265,random_subset_1,random subset hierarchy,1000
+2,VVE,-10942.1495339568,random_subset_1,random subset hierarchy,1000
+3,VVE,-10740.3305949244,random_subset_1,random subset hierarchy,1000
+4,VVE,-10420.920392394,random_subset_1,random subset hierarchy,1000
+5,VVE,-10448.4822872729,random_subset_1,random subset hierarchy,1000
+6,VVE,-10465.6264160902,random_subset_1,random subset hierarchy,1000
+7,VVE,,random_subset_1,random subset hierarchy,1000
+8,VVE,,random_subset_1,random subset hierarchy,1000
+9,VVE,,random_subset_1,random subset hierarchy,1000
+1,EEV,-11559.596756265,random_subset_1,random subset hierarchy,1000
+2,EEV,-10671.9246666489,random_subset_1,random subset hierarchy,1000
+3,EEV,-10573.2112587795,random_subset_1,random subset hierarchy,1000
+4,EEV,-10523.161498257,random_subset_1,random subset hierarchy,1000
+5,EEV,-10544.6391351151,random_subset_1,random subset hierarchy,1000
+6,EEV,-10541.251260803,random_subset_1,random subset hierarchy,1000
+7,EEV,-10491.6752699569,random_subset_1,random subset hierarchy,1000
+8,EEV,-10562.6945519787,random_subset_1,random subset hierarchy,1000
+9,EEV,-10594.3628869792,random_subset_1,random subset hierarchy,1000
+1,VEV,-11559.596756265,random_subset_1,random subset hierarchy,1000
+2,VEV,-10727.2159365691,random_subset_1,random subset hierarchy,1000
+3,VEV,-10630.71986172,random_subset_1,random subset hierarchy,1000
+4,VEV,,random_subset_1,random subset hierarchy,1000
+5,VEV,,random_subset_1,random subset hierarchy,1000
+6,VEV,,random_subset_1,random subset hierarchy,1000
+7,VEV,,random_subset_1,random subset hierarchy,1000
+8,VEV,,random_subset_1,random subset hierarchy,1000
+9,VEV,,random_subset_1,random subset hierarchy,1000
+1,EVV,-11559.596756265,random_subset_1,random subset hierarchy,1000
+2,EVV,-10607.5743678392,random_subset_1,random subset hierarchy,1000
+3,EVV,-10520.5409619429,random_subset_1,random subset hierarchy,1000
+4,EVV,-10487.7659839996,random_subset_1,random subset hierarchy,1000
+5,EVV,-10473.5235000853,random_subset_1,random subset hierarchy,1000
+6,EVV,-10564.0968442739,random_subset_1,random subset hierarchy,1000
+7,EVV,-10560.6628447486,random_subset_1,random subset hierarchy,1000
+8,EVV,-10576.4769705355,random_subset_1,random subset hierarchy,1000
+9,EVV,-10616.8234544551,random_subset_1,random subset hierarchy,1000
+1,VVV,-11559.596756265,random_subset_1,random subset hierarchy,1000
+2,VVV,-10698.5484569713,random_subset_1,random subset hierarchy,1000
+3,VVV,-10468.7189725938,random_subset_1,random subset hierarchy,1000
+4,VVV,,random_subset_1,random subset hierarchy,1000
+5,VVV,,random_subset_1,random subset hierarchy,1000
+6,VVV,,random_subset_1,random subset hierarchy,1000
+7,VVV,,random_subset_1,random subset hierarchy,1000
+8,VVV,,random_subset_1,random subset hierarchy,1000
+9,VVV,,random_subset_1,random subset hierarchy,1000
+1,EII,-17148.3371450618,random_subset_2,random subset hierarchy,1000
+2,EII,-14449.4700455474,random_subset_2,random subset hierarchy,1000
+3,EII,-12480.4442399787,random_subset_2,random subset hierarchy,1000
+4,EII,-11641.3927975651,random_subset_2,random subset hierarchy,1000
+5,EII,-11264.2997058014,random_subset_2,random subset hierarchy,1000
+6,EII,-11002.6460684716,random_subset_2,random subset hierarchy,1000
+7,EII,-10902.3801775473,random_subset_2,random subset hierarchy,1000
+8,EII,-10881.2862672699,random_subset_2,random subset hierarchy,1000
+9,EII,-10761.1506030458,random_subset_2,random subset hierarchy,1000
+1,VII,-17148.3371450618,random_subset_2,random subset hierarchy,1000
+2,VII,-14006.6851786843,random_subset_2,random subset hierarchy,1000
+3,VII,-12267.2453337995,random_subset_2,random subset hierarchy,1000
+4,VII,-11450.6636361592,random_subset_2,random subset hierarchy,1000
+5,VII,-11114.963231466,random_subset_2,random subset hierarchy,1000
+6,VII,,random_subset_2,random subset hierarchy,1000
+7,VII,,random_subset_2,random subset hierarchy,1000
+8,VII,,random_subset_2,random subset hierarchy,1000
+9,VII,,random_subset_2,random subset hierarchy,1000
+1,EEI,-17163.5499198413,random_subset_2,random subset hierarchy,1000
+2,EEI,-14406.8323419466,random_subset_2,random subset hierarchy,1000
+3,EEI,-12462.7179932551,random_subset_2,random subset hierarchy,1000
+4,EEI,-11629.9495485104,random_subset_2,random subset hierarchy,1000
+5,EEI,-11206.2643183136,random_subset_2,random subset hierarchy,1000
+6,EEI,-10926.572053734,random_subset_2,random subset hierarchy,1000
+7,EEI,-10826.7161406401,random_subset_2,random subset hierarchy,1000
+8,EEI,-10744.0377061229,random_subset_2,random subset hierarchy,1000
+9,EEI,-10731.6726389853,random_subset_2,random subset hierarchy,1000
+1,VEI,-17163.5499198413,random_subset_2,random subset hierarchy,1000
+2,VEI,-14007.3634621435,random_subset_2,random subset hierarchy,1000
+3,VEI,-12244.7864317895,random_subset_2,random subset hierarchy,1000
+4,VEI,-11416.7286195276,random_subset_2,random subset hierarchy,1000
+5,VEI,-11053.3099831044,random_subset_2,random subset hierarchy,1000
+6,VEI,-10824.6878932042,random_subset_2,random subset hierarchy,1000
+7,VEI,,random_subset_2,random subset hierarchy,1000
+8,VEI,,random_subset_2,random subset hierarchy,1000
+9,VEI,,random_subset_2,random subset hierarchy,1000
+1,EVI,-17163.5499198413,random_subset_2,random subset hierarchy,1000
+2,EVI,-14366.825599057,random_subset_2,random subset hierarchy,1000
+3,EVI,-12481.5636239592,random_subset_2,random subset hierarchy,1000
+4,EVI,-11571.0207267351,random_subset_2,random subset hierarchy,1000
+5,EVI,-11169.1236596998,random_subset_2,random subset hierarchy,1000
+6,EVI,-10895.1980715768,random_subset_2,random subset hierarchy,1000
+7,EVI,-10801.6058768064,random_subset_2,random subset hierarchy,1000
+8,EVI,-10724.2831567044,random_subset_2,random subset hierarchy,1000
+9,EVI,-10717.4960824247,random_subset_2,random subset hierarchy,1000
+1,VVI,-17163.5499198413,random_subset_2,random subset hierarchy,1000
+2,VVI,-13941.865540613,random_subset_2,random subset hierarchy,1000
+3,VVI,-12198.0072793246,random_subset_2,random subset hierarchy,1000
+4,VVI,-11389.0152423388,random_subset_2,random subset hierarchy,1000
+5,VVI,-11024.9456340247,random_subset_2,random subset hierarchy,1000
+6,VVI,,random_subset_2,random subset hierarchy,1000
+7,VVI,,random_subset_2,random subset hierarchy,1000
+8,VVI,,random_subset_2,random subset hierarchy,1000
+9,VVI,,random_subset_2,random subset hierarchy,1000
+1,EEE,-11559.596756265,random_subset_2,random subset hierarchy,1000
+2,EEE,-10664.0943428047,random_subset_2,random subset hierarchy,1000
+3,EEE,-10569.2052556999,random_subset_2,random subset hierarchy,1000
+4,EEE,-10599.6538535355,random_subset_2,random subset hierarchy,1000
+5,EEE,-10480.4389811237,random_subset_2,random subset hierarchy,1000
+6,EEE,-10510.6553907609,random_subset_2,random subset hierarchy,1000
+7,EEE,-10504.9371566161,random_subset_2,random subset hierarchy,1000
+8,EEE,-10545.5541655102,random_subset_2,random subset hierarchy,1000
+9,EEE,-10558.1817240232,random_subset_2,random subset hierarchy,1000
+1,VEE,-11559.596756265,random_subset_2,random subset hierarchy,1000
+2,VEE,-10665.363330479,random_subset_2,random subset hierarchy,1000
+3,VEE,-10493.9818933127,random_subset_2,random subset hierarchy,1000
+4,VEE,-10503.0366658868,random_subset_2,random subset hierarchy,1000
+5,VEE,-10433.1202683581,random_subset_2,random subset hierarchy,1000
+6,VEE,,random_subset_2,random subset hierarchy,1000
+7,VEE,,random_subset_2,random subset hierarchy,1000
+8,VEE,,random_subset_2,random subset hierarchy,1000
+9,VEE,,random_subset_2,random subset hierarchy,1000
+1,EVE,-11559.596756265,random_subset_2,random subset hierarchy,1000
+2,EVE,-10639.7128140113,random_subset_2,random subset hierarchy,1000
+3,EVE,-10537.4089750488,random_subset_2,random subset hierarchy,1000
+4,EVE,-10497.3059150161,random_subset_2,random subset hierarchy,1000
+5,EVE,-10480.8093637411,random_subset_2,random subset hierarchy,1000
+6,EVE,-10508.0344187695,random_subset_2,random subset hierarchy,1000
+7,EVE,,random_subset_2,random subset hierarchy,1000
+8,EVE,,random_subset_2,random subset hierarchy,1000
+9,EVE,,random_subset_2,random subset hierarchy,1000
+1,VVE,-11559.596756265,random_subset_2,random subset hierarchy,1000
+2,VVE,-10943.6483339579,random_subset_2,random subset hierarchy,1000
+3,VVE,,random_subset_2,random subset hierarchy,1000
+4,VVE,-10420.7923265655,random_subset_2,random subset hierarchy,1000
+5,VVE,-10439.8191715308,random_subset_2,random subset hierarchy,1000
+6,VVE,-10493.4227062383,random_subset_2,random subset hierarchy,1000
+7,VVE,,random_subset_2,random subset hierarchy,1000
+8,VVE,,random_subset_2,random subset hierarchy,1000
+9,VVE,,random_subset_2,random subset hierarchy,1000
+1,EEV,-11559.596756265,random_subset_2,random subset hierarchy,1000
+2,EEV,-10671.9211598309,random_subset_2,random subset hierarchy,1000
+3,EEV,-10573.1708151201,random_subset_2,random subset hierarchy,1000
+4,EEV,-10567.562410603,random_subset_2,random subset hierarchy,1000
+5,EEV,-10486.0472305327,random_subset_2,random subset hierarchy,1000
+6,EEV,-10569.2144889561,random_subset_2,random subset hierarchy,1000
+7,EEV,-10494.3249059362,random_subset_2,random subset hierarchy,1000
+8,EEV,-10520.850870485,random_subset_2,random subset hierarchy,1000
+9,EEV,-10551.9207303351,random_subset_2,random subset hierarchy,1000
+1,VEV,-11559.596756265,random_subset_2,random subset hierarchy,1000
+2,VEV,-10727.266419281,random_subset_2,random subset hierarchy,1000
+3,VEV,,random_subset_2,random subset hierarchy,1000
+4,VEV,,random_subset_2,random subset hierarchy,1000
+5,VEV,,random_subset_2,random subset hierarchy,1000
+6,VEV,,random_subset_2,random subset hierarchy,1000
+7,VEV,,random_subset_2,random subset hierarchy,1000
+8,VEV,,random_subset_2,random subset hierarchy,1000
+9,VEV,,random_subset_2,random subset hierarchy,1000
+1,EVV,-11559.596756265,random_subset_2,random subset hierarchy,1000
+2,EVV,-10607.5628413167,random_subset_2,random subset hierarchy,1000
+3,EVV,-10508.588474361,random_subset_2,random subset hierarchy,1000
+4,EVV,-10488.7375450113,random_subset_2,random subset hierarchy,1000
+5,EVV,-10521.7679150919,random_subset_2,random subset hierarchy,1000
+6,EVV,-10559.6919664603,random_subset_2,random subset hierarchy,1000
+7,EVV,,random_subset_2,random subset hierarchy,1000
+8,EVV,,random_subset_2,random subset hierarchy,1000
+9,EVV,,random_subset_2,random subset hierarchy,1000
+1,VVV,-11559.596756265,random_subset_2,random subset hierarchy,1000
+2,VVV,-10698.5495761401,random_subset_2,random subset hierarchy,1000
+3,VVV,-10470.4674428776,random_subset_2,random subset hierarchy,1000
+4,VVV,,random_subset_2,random subset hierarchy,1000
+5,VVV,-10510.6967898274,random_subset_2,random subset hierarchy,1000
+6,VVV,,random_subset_2,random subset hierarchy,1000
+7,VVV,,random_subset_2,random subset hierarchy,1000
+8,VVV,,random_subset_2,random subset hierarchy,1000
+9,VVV,,random_subset_2,random subset hierarchy,1000
+1,EII,-17148.3371450618,random_subset_3,random subset hierarchy,1000
+2,EII,-14449.4633545001,random_subset_3,random subset hierarchy,1000
+3,EII,-12480.436735777,random_subset_3,random subset hierarchy,1000
+4,EII,-11641.3886700885,random_subset_3,random subset hierarchy,1000
+5,EII,-11264.3483307513,random_subset_3,random subset hierarchy,1000
+6,EII,-11002.6671680195,random_subset_3,random subset hierarchy,1000
+7,EII,-10945.4233042766,random_subset_3,random subset hierarchy,1000
+8,EII,-10791.9297051929,random_subset_3,random subset hierarchy,1000
+9,EII,-10761.1759935873,random_subset_3,random subset hierarchy,1000
+1,VII,-17148.3371450618,random_subset_3,random subset hierarchy,1000
+2,VII,-14006.7257675235,random_subset_3,random subset hierarchy,1000
+3,VII,-12267.0767760518,random_subset_3,random subset hierarchy,1000
+4,VII,-11450.6155743001,random_subset_3,random subset hierarchy,1000
+5,VII,-11115.225630204,random_subset_3,random subset hierarchy,1000
+6,VII,-11048.1740282721,random_subset_3,random subset hierarchy,1000
+7,VII,-10998.7789894713,random_subset_3,random subset hierarchy,1000
+8,VII,,random_subset_3,random subset hierarchy,1000
+9,VII,,random_subset_3,random subset hierarchy,1000
+1,EEI,-17163.5499198413,random_subset_3,random subset hierarchy,1000
+2,EEI,-14406.8313030284,random_subset_3,random subset hierarchy,1000
+3,EEI,-12462.6931371504,random_subset_3,random subset hierarchy,1000
+4,EEI,-11629.9848304719,random_subset_3,random subset hierarchy,1000
+5,EEI,-11206.2556237851,random_subset_3,random subset hierarchy,1000
+6,EEI,-10926.5714239147,random_subset_3,random subset hierarchy,1000
+7,EEI,-10828.3948474208,random_subset_3,random subset hierarchy,1000
+8,EEI,-10743.967673616,random_subset_3,random subset hierarchy,1000
+9,EEI,-10735.7422480747,random_subset_3,random subset hierarchy,1000
+1,VEI,-17163.5499198413,random_subset_3,random subset hierarchy,1000
+2,VEI,-14007.4291773509,random_subset_3,random subset hierarchy,1000
+3,VEI,-12244.5976500482,random_subset_3,random subset hierarchy,1000
+4,VEI,-11416.771146771,random_subset_3,random subset hierarchy,1000
+5,VEI,-11053.2607182689,random_subset_3,random subset hierarchy,1000
+6,VEI,-10961.7533605806,random_subset_3,random subset hierarchy,1000
+7,VEI,,random_subset_3,random subset hierarchy,1000
+8,VEI,,random_subset_3,random subset hierarchy,1000
+9,VEI,,random_subset_3,random subset hierarchy,1000
+1,EVI,-17163.5499198413,random_subset_3,random subset hierarchy,1000
+2,EVI,-14366.8137572613,random_subset_3,random subset hierarchy,1000
+3,EVI,-12481.4872764511,random_subset_3,random subset hierarchy,1000
+4,EVI,-11571.0969235005,random_subset_3,random subset hierarchy,1000
+5,EVI,-11169.1059754056,random_subset_3,random subset hierarchy,1000
+6,EVI,-10895.1887217328,random_subset_3,random subset hierarchy,1000
+7,EVI,-10801.5938291471,random_subset_3,random subset hierarchy,1000
+8,EVI,,random_subset_3,random subset hierarchy,1000
+9,EVI,,random_subset_3,random subset hierarchy,1000
+1,VVI,-17163.5499198413,random_subset_3,random subset hierarchy,1000
+2,VVI,-13941.8134342703,random_subset_3,random subset hierarchy,1000
+3,VVI,-12197.9785522063,random_subset_3,random subset hierarchy,1000
+4,VVI,-11388.9822095075,random_subset_3,random subset hierarchy,1000
+5,VVI,-11023.9152132667,random_subset_3,random subset hierarchy,1000
+6,VVI,,random_subset_3,random subset hierarchy,1000
+7,VVI,,random_subset_3,random subset hierarchy,1000
+8,VVI,,random_subset_3,random subset hierarchy,1000
+9,VVI,,random_subset_3,random subset hierarchy,1000
+1,EEE,-11559.596756265,random_subset_3,random subset hierarchy,1000
+2,EEE,-10664.0830844067,random_subset_3,random subset hierarchy,1000
+3,EEE,-10569.2128292137,random_subset_3,random subset hierarchy,1000
+4,EEE,-10599.6368044458,random_subset_3,random subset hierarchy,1000
+5,EEE,-10562.4155399034,random_subset_3,random subset hierarchy,1000
+6,EEE,-10510.849126992,random_subset_3,random subset hierarchy,1000
+7,EEE,-10475.2722916332,random_subset_3,random subset hierarchy,1000
+8,EEE,-10491.6328235196,random_subset_3,random subset hierarchy,1000
+9,EEE,-10512.992288318,random_subset_3,random subset hierarchy,1000
+1,VEE,-11559.596756265,random_subset_3,random subset hierarchy,1000
+2,VEE,-10665.3302280974,random_subset_3,random subset hierarchy,1000
+3,VEE,-10493.554869663,random_subset_3,random subset hierarchy,1000
+4,VEE,-10512.4172209767,random_subset_3,random subset hierarchy,1000
+5,VEE,-10433.4201346615,random_subset_3,random subset hierarchy,1000
+6,VEE,-10451.0791582783,random_subset_3,random subset hierarchy,1000
+7,VEE,,random_subset_3,random subset hierarchy,1000
+8,VEE,,random_subset_3,random subset hierarchy,1000
+9,VEE,,random_subset_3,random subset hierarchy,1000
+1,EVE,-11559.596756265,random_subset_3,random subset hierarchy,1000
+2,EVE,-10639.7105468638,random_subset_3,random subset hierarchy,1000
+3,EVE,-10537.4792587427,random_subset_3,random subset hierarchy,1000
+4,EVE,-10497.081730225,random_subset_3,random subset hierarchy,1000
+5,EVE,-10479.9176007143,random_subset_3,random subset hierarchy,1000
+6,EVE,-10514.3795085057,random_subset_3,random subset hierarchy,1000
+7,EVE,-10535.3108169145,random_subset_3,random subset hierarchy,1000
+8,EVE,,random_subset_3,random subset hierarchy,1000
+9,EVE,,random_subset_3,random subset hierarchy,1000
+1,VVE,-11559.596756265,random_subset_3,random subset hierarchy,1000
+2,VVE,-10941.6706398614,random_subset_3,random subset hierarchy,1000
+3,VVE,,random_subset_3,random subset hierarchy,1000
+4,VVE,-10422.2249985747,random_subset_3,random subset hierarchy,1000
+5,VVE,-10438.4179618128,random_subset_3,random subset hierarchy,1000
+6,VVE,-10461.4701889534,random_subset_3,random subset hierarchy,1000
+7,VVE,,random_subset_3,random subset hierarchy,1000
+8,VVE,,random_subset_3,random subset hierarchy,1000
+9,VVE,,random_subset_3,random subset hierarchy,1000
+1,EEV,-11559.596756265,random_subset_3,random subset hierarchy,1000
+2,EEV,-10671.9098169586,random_subset_3,random subset hierarchy,1000
+3,EEV,-10572.1883307995,random_subset_3,random subset hierarchy,1000
+4,EEV,-10567.5791850279,random_subset_3,random subset hierarchy,1000
+5,EEV,-10522.8137711883,random_subset_3,random subset hierarchy,1000
+6,EEV,-10512.5781734971,random_subset_3,random subset hierarchy,1000
+7,EEV,-10530.9306137678,random_subset_3,random subset hierarchy,1000
+8,EEV,-10508.9476333095,random_subset_3,random subset hierarchy,1000
+9,EEV,-10535.3720191372,random_subset_3,random subset hierarchy,1000
+1,VEV,-11559.596756265,random_subset_3,random subset hierarchy,1000
+2,VEV,-10727.2302200299,random_subset_3,random subset hierarchy,1000
+3,VEV,,random_subset_3,random subset hierarchy,1000
+4,VEV,,random_subset_3,random subset hierarchy,1000
+5,VEV,,random_subset_3,random subset hierarchy,1000
+6,VEV,,random_subset_3,random subset hierarchy,1000
+7,VEV,,random_subset_3,random subset hierarchy,1000
+8,VEV,,random_subset_3,random subset hierarchy,1000
+9,VEV,,random_subset_3,random subset hierarchy,1000
+1,EVV,-11559.596756265,random_subset_3,random subset hierarchy,1000
+2,EVV,-10607.553379536,random_subset_3,random subset hierarchy,1000
+3,EVV,-10516.8297018569,random_subset_3,random subset hierarchy,1000
+4,EVV,-10492.8271233387,random_subset_3,random subset hierarchy,1000
+5,EVV,-10504.3951031879,random_subset_3,random subset hierarchy,1000
+6,EVV,-10537.966028738,random_subset_3,random subset hierarchy,1000
+7,EVV,-10570.1469331733,random_subset_3,random subset hierarchy,1000
+8,EVV,,random_subset_3,random subset hierarchy,1000
+9,EVV,,random_subset_3,random subset hierarchy,1000
+1,VVV,-11559.596756265,random_subset_3,random subset hierarchy,1000
+2,VVV,-10698.5149893796,random_subset_3,random subset hierarchy,1000
+3,VVV,-10470.4817071989,random_subset_3,random subset hierarchy,1000
+4,VVV,-10454.9755204999,random_subset_3,random subset hierarchy,1000
+5,VVV,,random_subset_3,random subset hierarchy,1000
+6,VVV,,random_subset_3,random subset hierarchy,1000
+7,VVV,,random_subset_3,random subset hierarchy,1000
+8,VVV,,random_subset_3,random subset hierarchy,1000
+9,VVV,,random_subset_3,random subset hierarchy,1000
+1,EII,-17148.3371450618,random_subset_4,random subset hierarchy,1000
+2,EII,-14449.4237079979,random_subset_4,random subset hierarchy,1000
+3,EII,-12480.4152605202,random_subset_4,random subset hierarchy,1000
+4,EII,-11641.4265533567,random_subset_4,random subset hierarchy,1000
+5,EII,-11264.3923929338,random_subset_4,random subset hierarchy,1000
+6,EII,-11001.7493196281,random_subset_4,random subset hierarchy,1000
+7,EII,-10905.6972292586,random_subset_4,random subset hierarchy,1000
+8,EII,-10792.2110260246,random_subset_4,random subset hierarchy,1000
+9,EII,-10761.1172559656,random_subset_4,random subset hierarchy,1000
+1,VII,-17148.3371450618,random_subset_4,random subset hierarchy,1000
+2,VII,-14006.7323000213,random_subset_4,random subset hierarchy,1000
+3,VII,-12267.4712897026,random_subset_4,random subset hierarchy,1000
+4,VII,,random_subset_4,random subset hierarchy,1000
+5,VII,,random_subset_4,random subset hierarchy,1000
+6,VII,,random_subset_4,random subset hierarchy,1000
+7,VII,,random_subset_4,random subset hierarchy,1000
+8,VII,,random_subset_4,random subset hierarchy,1000
+9,VII,,random_subset_4,random subset hierarchy,1000
+1,EEI,-17163.5499198413,random_subset_4,random subset hierarchy,1000
+2,EEI,-14406.8384984438,random_subset_4,random subset hierarchy,1000
+3,EEI,-12462.6810601093,random_subset_4,random subset hierarchy,1000
+4,EEI,-11630.0063642146,random_subset_4,random subset hierarchy,1000
+5,EEI,-11206.3165195299,random_subset_4,random subset hierarchy,1000
+6,EEI,-10925.0529687621,random_subset_4,random subset hierarchy,1000
+7,EEI,-10826.6380666233,random_subset_4,random subset hierarchy,1000
+8,EEI,-10744.060775188,random_subset_4,random subset hierarchy,1000
+9,EEI,-10732.7788096029,random_subset_4,random subset hierarchy,1000
+1,VEI,-17163.5499198413,random_subset_4,random subset hierarchy,1000
+2,VEI,-14007.3900353993,random_subset_4,random subset hierarchy,1000
+3,VEI,-12244.8890705492,random_subset_4,random subset hierarchy,1000
+4,VEI,,random_subset_4,random subset hierarchy,1000
+5,VEI,,random_subset_4,random subset hierarchy,1000
+6,VEI,,random_subset_4,random subset hierarchy,1000
+7,VEI,,random_subset_4,random subset hierarchy,1000
+8,VEI,,random_subset_4,random subset hierarchy,1000
+9,VEI,,random_subset_4,random subset hierarchy,1000
+1,EVI,-17163.5499198413,random_subset_4,random subset hierarchy,1000
+2,EVI,-14366.7789472214,random_subset_4,random subset hierarchy,1000
+3,EVI,-12481.5062930682,random_subset_4,random subset hierarchy,1000
+4,EVI,-11571.050809749,random_subset_4,random subset hierarchy,1000
+5,EVI,-11169.1098841406,random_subset_4,random subset hierarchy,1000
+6,EVI,-10895.0924574233,random_subset_4,random subset hierarchy,1000
+7,EVI,-10800.7421376675,random_subset_4,random subset hierarchy,1000
+8,EVI,-10759.9598828355,random_subset_4,random subset hierarchy,1000
+9,EVI,-10790.4176470101,random_subset_4,random subset hierarchy,1000
+1,VVI,-17163.5499198413,random_subset_4,random subset hierarchy,1000
+2,VVI,-13941.8277413847,random_subset_4,random subset hierarchy,1000
+3,VVI,-12197.9515742752,random_subset_4,random subset hierarchy,1000
+4,VVI,,random_subset_4,random subset hierarchy,1000
+5,VVI,,random_subset_4,random subset hierarchy,1000
+6,VVI,,random_subset_4,random subset hierarchy,1000
+7,VVI,,random_subset_4,random subset hierarchy,1000
+8,VVI,,random_subset_4,random subset hierarchy,1000
+9,VVI,,random_subset_4,random subset hierarchy,1000
+1,EEE,-11559.596756265,random_subset_4,random subset hierarchy,1000
+2,EEE,-10664.0885208988,random_subset_4,random subset hierarchy,1000
+3,EEE,-10569.2238919954,random_subset_4,random subset hierarchy,1000
+4,EEE,-10578.9259674459,random_subset_4,random subset hierarchy,1000
+5,EEE,-10535.7973064913,random_subset_4,random subset hierarchy,1000
+6,EEE,-10551.1291185993,random_subset_4,random subset hierarchy,1000
+7,EEE,-10487.4647580176,random_subset_4,random subset hierarchy,1000
+8,EEE,-10518.104238975,random_subset_4,random subset hierarchy,1000
+9,EEE,-10548.1123923768,random_subset_4,random subset hierarchy,1000
+1,VEE,-11559.596756265,random_subset_4,random subset hierarchy,1000
+2,VEE,-10665.3752050137,random_subset_4,random subset hierarchy,1000
+3,VEE,-10493.1945573873,random_subset_4,random subset hierarchy,1000
+4,VEE,,random_subset_4,random subset hierarchy,1000
+5,VEE,,random_subset_4,random subset hierarchy,1000
+6,VEE,,random_subset_4,random subset hierarchy,1000
+7,VEE,,random_subset_4,random subset hierarchy,1000
+8,VEE,,random_subset_4,random subset hierarchy,1000
+9,VEE,,random_subset_4,random subset hierarchy,1000
+1,EVE,-11559.596756265,random_subset_4,random subset hierarchy,1000
+2,EVE,-10639.7167321743,random_subset_4,random subset hierarchy,1000
+3,EVE,-10537.4501175693,random_subset_4,random subset hierarchy,1000
+4,EVE,,random_subset_4,random subset hierarchy,1000
+5,EVE,,random_subset_4,random subset hierarchy,1000
+6,EVE,,random_subset_4,random subset hierarchy,1000
+7,EVE,,random_subset_4,random subset hierarchy,1000
+8,EVE,,random_subset_4,random subset hierarchy,1000
+9,EVE,,random_subset_4,random subset hierarchy,1000
+1,VVE,-11559.596756265,random_subset_4,random subset hierarchy,1000
+2,VVE,-10944.4223237549,random_subset_4,random subset hierarchy,1000
+3,VVE,-10736.3887349374,random_subset_4,random subset hierarchy,1000
+4,VVE,,random_subset_4,random subset hierarchy,1000
+5,VVE,,random_subset_4,random subset hierarchy,1000
+6,VVE,,random_subset_4,random subset hierarchy,1000
+7,VVE,,random_subset_4,random subset hierarchy,1000
+8,VVE,,random_subset_4,random subset hierarchy,1000
+9,VVE,,random_subset_4,random subset hierarchy,1000
+1,EEV,-11559.596756265,random_subset_4,random subset hierarchy,1000
+2,EEV,-10671.9020119485,random_subset_4,random subset hierarchy,1000
+3,EEV,-10572.3284258022,random_subset_4,random subset hierarchy,1000
+4,EEV,-10521.9773101392,random_subset_4,random subset hierarchy,1000
+5,EEV,-10503.1231513292,random_subset_4,random subset hierarchy,1000
+6,EEV,-10515.4858421735,random_subset_4,random subset hierarchy,1000
+7,EEV,-10528.1533946341,random_subset_4,random subset hierarchy,1000
+8,EEV,-10513.9052659,random_subset_4,random subset hierarchy,1000
+9,EEV,-10546.1500820765,random_subset_4,random subset hierarchy,1000
+1,VEV,-11559.596756265,random_subset_4,random subset hierarchy,1000
+2,VEV,-10727.2570073285,random_subset_4,random subset hierarchy,1000
+3,VEV,-10634.1184453136,random_subset_4,random subset hierarchy,1000
+4,VEV,,random_subset_4,random subset hierarchy,1000
+5,VEV,,random_subset_4,random subset hierarchy,1000
+6,VEV,,random_subset_4,random subset hierarchy,1000
+7,VEV,,random_subset_4,random subset hierarchy,1000
+8,VEV,,random_subset_4,random subset hierarchy,1000
+9,VEV,,random_subset_4,random subset hierarchy,1000
+1,EVV,-11559.596756265,random_subset_4,random subset hierarchy,1000
+2,EVV,-10607.5572201434,random_subset_4,random subset hierarchy,1000
+3,EVV,-10519.2864061969,random_subset_4,random subset hierarchy,1000
+4,EVV,,random_subset_4,random subset hierarchy,1000
+5,EVV,,random_subset_4,random subset hierarchy,1000
+6,EVV,,random_subset_4,random subset hierarchy,1000
+7,EVV,,random_subset_4,random subset hierarchy,1000
+8,EVV,,random_subset_4,random subset hierarchy,1000
+9,EVV,,random_subset_4,random subset hierarchy,1000
+1,VVV,-11559.596756265,random_subset_4,random subset hierarchy,1000
+2,VVV,-10698.508163457,random_subset_4,random subset hierarchy,1000
+3,VVV,-10469.3252996257,random_subset_4,random subset hierarchy,1000
+4,VVV,,random_subset_4,random subset hierarchy,1000
+5,VVV,,random_subset_4,random subset hierarchy,1000
+6,VVV,,random_subset_4,random subset hierarchy,1000
+7,VVV,,random_subset_4,random subset hierarchy,1000
+8,VVV,,random_subset_4,random subset hierarchy,1000
+9,VVV,,random_subset_4,random subset hierarchy,1000
+1,EII,-17148.3371450618,random_subset_5,random subset hierarchy,1000
+2,EII,-14449.4697515815,random_subset_5,random subset hierarchy,1000
+3,EII,-12480.4546937275,random_subset_5,random subset hierarchy,1000
+4,EII,-11641.4530412359,random_subset_5,random subset hierarchy,1000
+5,EII,-11264.3749236606,random_subset_5,random subset hierarchy,1000
+6,EII,-11002.698242764,random_subset_5,random subset hierarchy,1000
+7,EII,-10907.0753024792,random_subset_5,random subset hierarchy,1000
+8,EII,-10792.0223593445,random_subset_5,random subset hierarchy,1000
+9,EII,-10761.1444147557,random_subset_5,random subset hierarchy,1000
+1,VII,-17148.3371450618,random_subset_5,random subset hierarchy,1000
+2,VII,-14006.6799165644,random_subset_5,random subset hierarchy,1000
+3,VII,-12267.4680687716,random_subset_5,random subset hierarchy,1000
+4,VII,-11450.6012483145,random_subset_5,random subset hierarchy,1000
+5,VII,-11115.6610615506,random_subset_5,random subset hierarchy,1000
+6,VII,,random_subset_5,random subset hierarchy,1000
+7,VII,-10979.6505468245,random_subset_5,random subset hierarchy,1000
+8,VII,,random_subset_5,random subset hierarchy,1000
+9,VII,,random_subset_5,random subset hierarchy,1000
+1,EEI,-17163.5499198413,random_subset_5,random subset hierarchy,1000
+2,EEI,-14406.8669605672,random_subset_5,random subset hierarchy,1000
+3,EEI,-12462.6452030479,random_subset_5,random subset hierarchy,1000
+4,EEI,-11630.0291298202,random_subset_5,random subset hierarchy,1000
+5,EEI,-11206.254439584,random_subset_5,random subset hierarchy,1000
+6,EEI,-10926.6635727506,random_subset_5,random subset hierarchy,1000
+7,EEI,-10826.4052064705,random_subset_5,random subset hierarchy,1000
+8,EEI,-10744.0864087905,random_subset_5,random subset hierarchy,1000
+9,EEI,-10731.2316502167,random_subset_5,random subset hierarchy,1000
+1,VEI,-17163.5499198413,random_subset_5,random subset hierarchy,1000
+2,VEI,-14007.3828919827,random_subset_5,random subset hierarchy,1000
+3,VEI,-12244.9747277965,random_subset_5,random subset hierarchy,1000
+4,VEI,-11416.7229597729,random_subset_5,random subset hierarchy,1000
+5,VEI,-11054.2818887613,random_subset_5,random subset hierarchy,1000
+6,VEI,-10824.7249906405,random_subset_5,random subset hierarchy,1000
+7,VEI,,random_subset_5,random subset hierarchy,1000
+8,VEI,,random_subset_5,random subset hierarchy,1000
+9,VEI,,random_subset_5,random subset hierarchy,1000
+1,EVI,-17163.5499198413,random_subset_5,random subset hierarchy,1000
+2,EVI,-14366.8708534717,random_subset_5,random subset hierarchy,1000
+3,EVI,-12481.5621949333,random_subset_5,random subset hierarchy,1000
+4,EVI,-11571.0536261805,random_subset_5,random subset hierarchy,1000
+5,EVI,-11169.1427913381,random_subset_5,random subset hierarchy,1000
+6,EVI,-10895.1746439758,random_subset_5,random subset hierarchy,1000
+7,EVI,-10801.2249457101,random_subset_5,random subset hierarchy,1000
+8,EVI,-10759.8480052924,random_subset_5,random subset hierarchy,1000
+9,EVI,-10755.0071276251,random_subset_5,random subset hierarchy,1000
+1,VVI,-17163.5499198413,random_subset_5,random subset hierarchy,1000
+2,VVI,-13941.877208506,random_subset_5,random subset hierarchy,1000
+3,VVI,-12197.9501982362,random_subset_5,random subset hierarchy,1000
+4,VVI,-11389.0414631201,random_subset_5,random subset hierarchy,1000
+5,VVI,-11024.9788676106,random_subset_5,random subset hierarchy,1000
+6,VVI,,random_subset_5,random subset hierarchy,1000
+7,VVI,,random_subset_5,random subset hierarchy,1000
+8,VVI,,random_subset_5,random subset hierarchy,1000
+9,VVI,,random_subset_5,random subset hierarchy,1000
+1,EEE,-11559.596756265,random_subset_5,random subset hierarchy,1000
+2,EEE,-10664.0932269101,random_subset_5,random subset hierarchy,1000
+3,EEE,-10569.1979794368,random_subset_5,random subset hierarchy,1000
+4,EEE,-10577.7431924744,random_subset_5,random subset hierarchy,1000
+5,EEE,-10606.4189929271,random_subset_5,random subset hierarchy,1000
+6,EEE,-10490.2184979447,random_subset_5,random subset hierarchy,1000
+7,EEE,-10468.4262712912,random_subset_5,random subset hierarchy,1000
+8,EEE,-10506.1991093557,random_subset_5,random subset hierarchy,1000
+9,EEE,-10513.4771457792,random_subset_5,random subset hierarchy,1000
+1,VEE,-11559.596756265,random_subset_5,random subset hierarchy,1000
+2,VEE,-10665.3529343536,random_subset_5,random subset hierarchy,1000
+3,VEE,-10493.8418483048,random_subset_5,random subset hierarchy,1000
+4,VEE,-10497.5600667448,random_subset_5,random subset hierarchy,1000
+5,VEE,-10506.3229845618,random_subset_5,random subset hierarchy,1000
+6,VEE,-10448.6216881363,random_subset_5,random subset hierarchy,1000
+7,VEE,,random_subset_5,random subset hierarchy,1000
+8,VEE,,random_subset_5,random subset hierarchy,1000
+9,VEE,,random_subset_5,random subset hierarchy,1000
+1,EVE,-11559.596756265,random_subset_5,random subset hierarchy,1000
+2,EVE,-10639.7117439828,random_subset_5,random subset hierarchy,1000
+3,EVE,-10537.4293022411,random_subset_5,random subset hierarchy,1000
+4,EVE,-10497.2291871155,random_subset_5,random subset hierarchy,1000
+5,EVE,-10480.8087682929,random_subset_5,random subset hierarchy,1000
+6,EVE,-10513.4527579844,random_subset_5,random subset hierarchy,1000
+7,EVE,-10455.0552666925,random_subset_5,random subset hierarchy,1000
+8,EVE,-10496.2299231942,random_subset_5,random subset hierarchy,1000
+9,EVE,-10525.1550283467,random_subset_5,random subset hierarchy,1000
+1,VVE,-11559.596756265,random_subset_5,random subset hierarchy,1000
+2,VVE,-10944.76448999,random_subset_5,random subset hierarchy,1000
+3,VVE,-10744.6417083477,random_subset_5,random subset hierarchy,1000
+4,VVE,-10595.0323161793,random_subset_5,random subset hierarchy,1000
+5,VVE,-10449.2043200921,random_subset_5,random subset hierarchy,1000
+6,VVE,,random_subset_5,random subset hierarchy,1000
+7,VVE,,random_subset_5,random subset hierarchy,1000
+8,VVE,,random_subset_5,random subset hierarchy,1000
+9,VVE,,random_subset_5,random subset hierarchy,1000
+1,EEV,-11559.596756265,random_subset_5,random subset hierarchy,1000
+2,EEV,-10671.9139770048,random_subset_5,random subset hierarchy,1000
+3,EEV,-10573.3730010762,random_subset_5,random subset hierarchy,1000
+4,EEV,-10554.784421274,random_subset_5,random subset hierarchy,1000
+5,EEV,-10552.9036510598,random_subset_5,random subset hierarchy,1000
+6,EEV,-10540.5119241686,random_subset_5,random subset hierarchy,1000
+7,EEV,-10508.2658292583,random_subset_5,random subset hierarchy,1000
+8,EEV,-10563.2014433879,random_subset_5,random subset hierarchy,1000
+9,EEV,-10554.1668391809,random_subset_5,random subset hierarchy,1000
+1,VEV,-11559.596756265,random_subset_5,random subset hierarchy,1000
+2,VEV,-10727.2349534415,random_subset_5,random subset hierarchy,1000
+3,VEV,-10556.4634364983,random_subset_5,random subset hierarchy,1000
+4,VEV,,random_subset_5,random subset hierarchy,1000
+5,VEV,,random_subset_5,random subset hierarchy,1000
+6,VEV,,random_subset_5,random subset hierarchy,1000
+7,VEV,,random_subset_5,random subset hierarchy,1000
+8,VEV,,random_subset_5,random subset hierarchy,1000
+9,VEV,,random_subset_5,random subset hierarchy,1000
+1,EVV,-11559.596756265,random_subset_5,random subset hierarchy,1000
+2,EVV,-10607.5605287808,random_subset_5,random subset hierarchy,1000
+3,EVV,-10519.327402309,random_subset_5,random subset hierarchy,1000
+4,EVV,-10493.3083354299,random_subset_5,random subset hierarchy,1000
+5,EVV,-10541.757271226,random_subset_5,random subset hierarchy,1000
+6,EVV,-10522.2978224654,random_subset_5,random subset hierarchy,1000
+7,EVV,-10554.9426432765,random_subset_5,random subset hierarchy,1000
+8,EVV,-10581.0577270436,random_subset_5,random subset hierarchy,1000
+9,EVV,,random_subset_5,random subset hierarchy,1000
+1,VVV,-11559.596756265,random_subset_5,random subset hierarchy,1000
+2,VVV,-10698.2539633545,random_subset_5,random subset hierarchy,1000
+3,VVV,-10468.6790705169,random_subset_5,random subset hierarchy,1000
+4,VVV,-10451.6193619817,random_subset_5,random subset hierarchy,1000
+5,VVV,,random_subset_5,random subset hierarchy,1000
+6,VVV,,random_subset_5,random subset hierarchy,1000
+7,VVV,,random_subset_5,random subset hierarchy,1000
+8,VVV,,random_subset_5,random subset hierarchy,1000
+9,VVV,,random_subset_5,random subset hierarchy,1000

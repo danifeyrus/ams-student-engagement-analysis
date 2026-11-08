@@ -1,0 +1,4 @@
+original_feature,transformed_feature,model_feature,transform,log_mean,log_sd
+total_clicks,log_total_clicks,z_total_clicks,log1p then z-score,5.14190463375139,1.27552942419917
+active_days,log_active_days,z_active_days,log1p then z-score,2.22699471719126,0.664826895532756
+distinct_resources,log_distinct_resources,z_distinct_resources,log1p then z-score,2.76405100059136,0.700590594404304

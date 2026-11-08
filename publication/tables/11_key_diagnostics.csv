@@ -1,0 +1,14 @@
+diagnostic,value,interpretation
+Primary ARI independently verified,0.238981437,Matches package ARI to numerical tolerance on identical retained enrollments.
+Retained observations,1910,Only TCLUST labels 1-4 are compared.
+Trimmed observations excluded from primary ARI,101,"TCLUST label 0 is trimming status, not a fourth cluster."
+PC1 variance proportion,0.8960,High concentration on one engagement-intensity direction explains method-dependent cut points.
+Mclust mean silhouette,0.2208,Low values indicate weak Euclidean separation despite likelihood-based density improvement.
+Mclust negative silhouette proportion,0.2282,Negative values indicate many cases are closer on average to another hard group.
+Mean normalized posterior entropy,0.3626,Posterior overlap is material and hard labels discard information.
+BIC gap to second-ranked model,12.328,"BIC favors the primary density model, but BIC does not prove natural clusters."
+ICL preferred specification,G=2 EVE,ICL explicitly penalizes classification entropy and is an important clustering diagnostic.
+Fixed G=4 VVE subsample ARI median,0.7719,Conditional stability of the chosen specification under case perturbation.
+BIC-reselected subsample ARI median,0.2562,Joint model-selection and assignment stability under case perturbation.
+Fixed G=4 VVE subsample successes,16/25,Technical success count for fixed-specification subsampling.
+BIC-reselected subsample successes,25/25,Technical success count for model-reselection subsampling.

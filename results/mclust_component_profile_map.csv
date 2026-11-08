@@ -1,0 +1,5 @@
+mclust_component,median_total_clicks,median_active_days,median_distinct_resources,profile_order,profile_id,profile_label
+3,1,1,1,1,P1,Profile 1
+2,86,4,9,2,P2,Profile 2
+1,229,10,19,3,P3,Profile 3
+4,651.5,19,24,4,P4,Profile 4

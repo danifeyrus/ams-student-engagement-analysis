@@ -1,0 +1,8 @@
+table,rows,columns,unique_key_rows,repeated_grain_rows,uniqueness_required,key_columns
+courses,22,3,22,0,TRUE,code_module + code_presentation
+assessments,206,6,206,0,TRUE,id_assessment
+vle,6364,6,6364,0,TRUE,code_module + code_presentation + id_site
+student_info,32593,12,32593,0,TRUE,code_module + code_presentation + id_student
+registration,32593,5,32593,0,TRUE,code_module + code_presentation + id_student
+student_assessment,173912,5,173912,0,TRUE,id_assessment + id_student
+student_vle,10655280,6,8459320,2195960,FALSE,code_module + code_presentation + id_student + id_site + date

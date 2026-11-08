@@ -1,0 +1,28 @@
+{
+  "r.consoleArgs": [
+    "--no-save",
+    "--no-restore"
+  ],
+  "r.useRenvLibPath": true,
+  "r.lsp.enabled": true,
+  "r.lsp.args": [
+    "--vanilla"
+  ],
+  "r.lsp.promptToInstall": false,
+  "r.sessionWatcher": true,
+  "r.session.watchGlobalEnvironment": true,
+  "r.source.focus": "terminal",
+  "r.alwaysUseActiveTerminal": true,
+  "r.plot.backend": "auto",
+  "r.session.viewers.viewColumn": {
+    "plot": "Two",
+    "browser": "Two",
+    "viewer": "Two",
+    "pageViewer": "Two",
+    "view": "Two",
+    "helpPanel": "Two"
+  },
+  "files.associations": {
+    "*.R": "r"
+  }
+}

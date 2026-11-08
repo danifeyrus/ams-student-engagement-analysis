@@ -1,0 +1,4 @@
+feature,log_total_clicks,log_active_days,log_distinct_resources
+log_total_clicks,1,0.854773147036056,0.872363032192379
+log_active_days,0.854773147036056,1,0.804333381481031
+log_distinct_resources,0.872363032192379,0.804333381481031,1

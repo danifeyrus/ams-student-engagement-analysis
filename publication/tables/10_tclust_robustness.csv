@@ -1,0 +1,7 @@
+configuration,alpha,restriction_factor,retained_n,trimmed_n,minimum_cluster_n,maximum_cluster_n,ARI_vs_mclust_retained,fitted_eigenvalue_ratio,starts
+alpha0_c20,0,20,2011,0,12,1711,0.269,20,100
+alpha0025_c20,0.025,20,1960,51,5,1704,0.254,20,100
+primary_alpha005_c20,0.05,20,1910,101,38,1717,0.239,20,1000
+alpha010_c20,0.1,20,1809,202,16,1597,0.275,20,100
+alpha005_c5,0.05,5,1910,101,54,1073,0.283,5,100
+alpha005_c50,0.05,50,1910,101,1,1822,0.117,50,100

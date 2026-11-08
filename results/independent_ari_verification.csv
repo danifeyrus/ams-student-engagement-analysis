@@ -1,0 +1,4 @@
+comparison,n_compared,trimmed_excluded,ari,valid_primary_comparison,note,unique_enrollment_keys,recorded_assignment_alignment_exact
+Package ARI on TCLUST-retained observations,1910,TRUE,0.238981437107876,TRUE,Same enrollment order and same 4 requested clusters; TCLUST label 0 excluded.,TRUE,TRUE
+Independent manual ARI on TCLUST-retained observations,1910,TRUE,0.238981437107876,TRUE,Computed directly from pair-count contingency formula; independent of mclust ARI code.,TRUE,TRUE
+Diagnostic only: ARI treating trimmed cases as a fourth label,2011,FALSE,0.268523817412657,FALSE,Reported only to show why treating trimming as a substantive cluster is inappropriate.,TRUE,TRUE

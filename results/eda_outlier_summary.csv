@@ -1,0 +1,4 @@
+variable,iqr_upper_cutoff,above_cutoff_n,above_cutoff_pct,maximum
+total_clicks,728.75,132,0.0656389855793138,3247
+active_days,26,28,0.0139234211834908,28
+distinct_resources,43.5,56,0.0278468423669816,98

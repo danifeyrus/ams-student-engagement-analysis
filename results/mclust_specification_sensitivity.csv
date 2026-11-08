@@ -1,0 +1,10 @@
+specification,description,success,dimensions,selected_G,selected_model,BIC,ARI_vs_primary,mean_uncertainty,minimum_component_n,warnings,bic_comparison_note
+primary_log1p_three_features,Primary specification,TRUE,3,4,VVE,-10420.718932278,1,0.217062373829649,91,"",BIC values are not compared across transformations or dimensions.
+log1p_robust_affine_scaling,Affine re-scaling check for initialization and numerical equivariance,TRUE,3,4,VVV,-13438.5034137479,0.669478192047116,0.257560054446706,136,"",BIC values are not compared across transformations or dimensions.
+log1p_orthogonal_pc_rotation,Coordinate-rotation check for initialization and covariance search,TRUE,3,3,VVI,-10434.2805393417,0.576903476063965,0.170945108213237,54,"",BIC values are not compared across transformations or dimensions.
+square_root_three_features,Less aggressive defensible count transformation,TRUE,3,4,EVV,-11912.7979825105,0.390512188941662,0.131559157854382,42,"",BIC values are not compared across transformations or dimensions.
+marginal_rank_gaussian_three_features,Diagnostic marginal Gaussianization; changes metric and count spacing,TRUE,3,5,VVE,-11886.5921937427,0.166897763189883,0.296016505887936,55,"",BIC values are not compared across transformations or dimensions.
+first_principal_component_only,One-dimensional engagement-intensity sensitivity; PC1 retains most variance,TRUE,1,3,V,-7123.4527750809,0.196614977885365,0.269774976720036,81,"",BIC values are not compared across transformations or dimensions.
+log1p_without_total_clicks,Leave-one-feature-out redundancy check,TRUE,2,5,EVE,-8694.70376501115,0.274750708454856,0.175632614934377,26,"",BIC values are not compared across transformations or dimensions.
+log1p_without_active_days,Leave-one-feature-out redundancy check,TRUE,2,4,VVE,-7654.8354661381,0.405354951049288,0.285563819020816,108,"",BIC values are not compared across transformations or dimensions.
+log1p_without_distinct_resources,Leave-one-feature-out redundancy check,TRUE,2,6,EVE,-7780.38494082069,0.37143886485463,0.157842650765816,54,"",BIC values are not compared across transformations or dimensions.

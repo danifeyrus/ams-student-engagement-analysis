@@ -1,0 +1,5 @@
+profile,n,proportion,median_total_clicks,median_active_days,median_distinct_resources,mean_uncertainty,assignments_uncertainty_above_0_20
+P1,91,0.045,1,1,1,0.045,8
+P2,493,0.245,86,4,9,0.186,209
+P3,1145,0.569,229,10,19,0.243,634
+P4,282,0.14,651.5,19,24,0.22,137

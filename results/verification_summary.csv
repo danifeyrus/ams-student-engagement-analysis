@@ -1,0 +1,25 @@
+check,level,status,detail
+Official raw-table row counts,required,PASS,courses=22; assessments=206; vle=6364; student_info=32593; registration=32593; student_assessment=173912; student_vle=10655280
+All documented join keys matched,required,PASS,Total unmatched rows: 0
+Extracted raw files unchanged since preparation,required,PASS,Files checked: 7
+Selected cohort cardinality,required,PASS,analysis rows=2011; selected eligible=2011
+Zero-click enrollments retained,required,PASS,Zero-click enrollments: 38
+Finite Gaussian-mixture input,required,PASS,"Model features: z_total_clicks, z_active_days, z_distinct_resources"
+Outcome excluded from model inputs,required,PASS,"Outcome-blind features: z_total_clicks, z_active_days, z_distinct_resources"
+Mclust BIC search uses multiple outcome-blind initializations,required,PASS,initializations=7; selected G=4 VVE; grid BIC=-10420.792
+Mclust assignment cardinality,required,PASS,assignments=2011; profile total=2011
+Selected Mclust restart has maximum recorded log-likelihood,required,PASS,final=-5096.26365529; recorded max=-5096.26365529
+No tiny or near-singular Gaussian components,required,PASS,minimum component n=91; minimum covariance eigenvalue=0.0177194
+Posterior uncertainty requires substantive caution,diagnostic,REVIEW,mean uncertainty=0.217; n above 0.20=988
+Outcome table denominators,required,PASS,Outcome total=2011; cohort n=2011
+Chi-squared expected-count condition,required,PASS,minimum expected count=13.80
+TCLUST trimming count,required,PASS,trimmed=101 of 2011
+TCLUST fitted eigenvalue constraint,required,PASS,fitted ratio=20.000000; c=20
+TCLUST requested components nonempty,required,PASS,Nonempty clusters: 4
+Robust agreement requires substantive caution,diagnostic,REVIEW,ARI on retained observations=0.239
+Independent ARI verification and key alignment,required,PASS,manual/package ARI=0.238981437; compared n=1910
+Hard Gaussian partition separation requires caution,diagnostic,REVIEW,mean silhouette=0.221; negative silhouette proportion=0.228
+BIC and classification-focused ICL agree,diagnostic,REVIEW,BIC selects G=4 VVE; ICL selects G=2 EVE
+Gaussian model selection stable under 80 percent case subsampling,diagnostic,REVIEW,primary G/model reselection rate=24.0%; median selected-partition ARI=0.256
+Required figure set exists and is nonempty,required,PASS,PNG figures found=20; expected prefixes present=20/20
+Core machine-readable result files exist,required,PASS,"cohort_comparison.csv, eda_feature_summary.csv, mclust_bic_grid.csv, mclust_profile_summary.csv, outcome_by_profile_long.csv, tclust_configuration_sensitivity.csv, alternative_specification_sensitivity.csv, independent_ari_verification.csv, independent_statistical_audit_summary.csv, mclust_subsample_stability.csv, mclust_specification_sensitivity.csv"
